@@ -6,28 +6,23 @@ baseurl: "/"
 
 # This will show up at the top of index page
 site_heading: >
-    foo <span class="faded">'s blog</span>
+    Serhii Bohutskyi <span class="faded">'s blog</span>
 
-email: your@email.com
-author: yourname
+email: sergey.boguckiy@gmail.com
+author: Serhii Bohutskyi
 # This description will show up in google search results
 # (for index page) etc.
 description: >
-    accent is, as Trump would put it, the best
+
 
 # This will what will show against &copy; in the footer
-copyright: accent
+copyright: bohutskyi.com
 # Toggle your short bio, which will displayed on your index page
 # Just toggle it and run jekyll again to see
 intro: false         # Tip: Remove the span from site_heading if intro is set to true
 # This will be displayed in your intro
 short_bio: >
-    Welcome! This is <span>accent</span>, a mobile friendly theme for Jekyll. The main feature of this
-    theme is that you can change the accent color. Refer the
-    <a class="underline different-highlight" href="http://ankitsultana.com/accent/documentation.html">
-        Documentation
-    </a>
-    to know how.
+    Welcome! My name is Serhii Bohutskyi and I am a Java Developer, this is my technical blog. Here I'm collecting interesting things which I don't want to handle in my memory :)
 
 permalink: /:title.html
 
@@ -39,21 +34,21 @@ comments: true
 # Note that about_footer should be true if you want
 # to see author information at the bottom of each post
 about_stub: >
-    Keep this sentence less than 13 words or it won't look good.
+    Java Developer.
 
 about_footer: true
 
-twitter_username: AnkitSultana
-github_username: yourgithub
-facebook_id: yourusername
+twitter_username:
+github_username: serhiibh
+facebook_id: 100001800012668
 
 favicon: true
 favicon_location: "images/favicon.ico"
 
 profile_picture: images/temp.png
-paginate: 5
+paginate: 50
 paginate_path: "/page/:num"
-tracking_id: UA-69243698-7 # GA Tracking ID
+tracking_id: UA-104221951-1 # GA Tracking ID
 
 # Social Stuff | open graph and twitter cards
 og_image: "images/accent.png" # This will show in facebook thumbnails
