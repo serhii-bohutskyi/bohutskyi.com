@@ -2,7 +2,7 @@
 
 title: accent
 url: "http://bohutskyi.com"
-baseurl: "/"
+baseurl: ""
 
 # This will show up at the top of index page
 site_heading: >
@@ -34,7 +34,7 @@ comments: true
 # Note that about_footer should be true if you want
 # to see author information at the bottom of each post
 about_stub: >
-    Java Developer.
+    Java Developer
 
 about_footer: true
 

@@ -2,10 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>accent - Articles</title>
-    <description>accent is, as Trump would put it, the best
-</description>
+    <description></description>
     <link>
-    http://localhost:4000/accent</link>
+    http://localhost:4000</link>
     
       
       <item>
@@ -17,8 +16,8 @@
         
         <pubDate>Thu, 11 Feb 2016 00:00:00 +0200</pubDate>
         <link>
-        http://localhost:4000/accent/features.html</link>
-        <guid isPermaLink="true">http://localhost:4000/accent/features.html</guid>
+        http://localhost:4000/features.html</link>
+        <guid isPermaLink="true">http://localhost:4000/features.html</guid>
       </item>
       
     
@@ -32,8 +31,8 @@
         
         <pubDate>Thu, 11 Feb 2016 00:00:00 +0200</pubDate>
         <link>
-        http://localhost:4000/accent/documentation.html</link>
-        <guid isPermaLink="true">http://localhost:4000/accent/documentation.html</guid>
+        http://localhost:4000/documentation.html</link>
+        <guid isPermaLink="true">http://localhost:4000/documentation.html</guid>
       </item>
       
     
@@ -47,8 +46,8 @@
         
         <pubDate>Wed, 10 Feb 2016 00:00:00 +0200</pubDate>
         <link>
-        http://localhost:4000/accent/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/accent/welcome-to-jekyll.html</guid>
+        http://localhost:4000/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/welcome-to-jekyll.html</guid>
       </item>
       
     
@@ -62,8 +61,8 @@
         
         <pubDate>Wed, 10 Feb 2016 00:00:00 +0200</pubDate>
         <link>
-        http://localhost:4000/accent/testing.html</link>
-        <guid isPermaLink="true">http://localhost:4000/accent/testing.html</guid>
+        http://localhost:4000/testing.html</link>
+        <guid isPermaLink="true">http://localhost:4000/testing.html</guid>
       </item>
       
     
@@ -77,8 +76,8 @@
         
         <pubDate>Wed, 10 Feb 2016 00:00:00 +0200</pubDate>
         <link>
-        http://localhost:4000/accent/guest-posts.html</link>
-        <guid isPermaLink="true">http://localhost:4000/accent/guest-posts.html</guid>
+        http://localhost:4000/guest-posts.html</link>
+        <guid isPermaLink="true">http://localhost:4000/guest-posts.html</guid>
       </item>
       
     
@@ -92,8 +91,8 @@
         
         <pubDate>Wed, 10 Feb 2016 00:00:00 +0200</pubDate>
         <link>
-        http://localhost:4000/accent/example-content.html</link>
-        <guid isPermaLink="true">http://localhost:4000/accent/example-content.html</guid>
+        http://localhost:4000/example-content.html</link>
+        <guid isPermaLink="true">http://localhost:4000/example-content.html</guid>
       </item>
       
     
