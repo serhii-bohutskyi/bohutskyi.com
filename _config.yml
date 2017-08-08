@@ -36,7 +36,7 @@ comments: true
 about_stub: >
     Java Developer
 
-about_footer: true
+about_footer: false
 
 twitter_username:
 github_username: serhiibh
