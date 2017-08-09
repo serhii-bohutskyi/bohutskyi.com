@@ -37,6 +37,7 @@ about_stub: >
     Java Developer
 
 about_footer: false
+show_share: false
 
 twitter_username:
 github_username: serhiibh

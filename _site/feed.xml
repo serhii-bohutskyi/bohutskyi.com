@@ -8,91 +8,72 @@
     
       
       <item>
-        <title>Features</title>
+        <title>Transaction properties - ACID</title>
         
-          <description>&lt;p&gt;This is &lt;span class=&quot;capsule&quot;&gt;accent&lt;/span&gt; a minimal, mobile friendly theme for &lt;span class=&quot;capsule&quot;&gt;Jekyll&lt;/span&gt;&lt;/p&gt;
+          <description>&lt;p&gt;&lt;strong&gt;ACID&lt;/strong&gt; (atomicity, consistency, isolation, and durability) is an acronym
+primary attributes ensured to any transaction by a transaction manager
+(which is also called a transaction monitor) or simplifying is a set of
+properties of database transactions.&lt;/p&gt;
 
 </description>
         
-        <pubDate>Thu, 11 Feb 2016 00:00:00 +0200</pubDate>
+        <pubDate>Thu, 02 Mar 2017 00:00:00 +0200</pubDate>
         <link>
-        http://localhost:4000/features.html</link>
-        <guid isPermaLink="true">http://localhost:4000/features.html</guid>
+        http://localhost:4000/transaction-properties.html</link>
+        <guid isPermaLink="true">http://localhost:4000/transaction-properties.html</guid>
       </item>
       
     
       
       <item>
-        <title>Documentation</title>
+        <title>Transaction properties - ACID</title>
         
-          <description>&lt;h3 id=&quot;installation&quot;&gt;Installation&lt;/h3&gt;
+          <description>&lt;p&gt;&lt;strong&gt;ACID&lt;/strong&gt; (atomicity, consistency, isolation, and durability) is an acronym
+primary attributes ensured to any transaction by a transaction manager
+(which is also called a transaction monitor) or simplifying is a set of
+properties of database transactions.&lt;/p&gt;
 
 </description>
         
-        <pubDate>Thu, 11 Feb 2016 00:00:00 +0200</pubDate>
+        <pubDate>Thu, 02 Mar 2017 00:00:00 +0200</pubDate>
         <link>
-        http://localhost:4000/documentation.html</link>
-        <guid isPermaLink="true">http://localhost:4000/documentation.html</guid>
+        http://localhost:4000/transaction-properties.html</link>
+        <guid isPermaLink="true">http://localhost:4000/transaction-properties.html</guid>
       </item>
       
     
       
       <item>
-        <title>Welcome To Jekyll</title>
+        <title>Eventual consistency</title>
         
-          <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+          <description>&lt;p&gt;A distributed system maintains copies of its data on multiple machines in order to provide high availability and scalability.
+When an application makes a change to a data item on one machine, that change has to be propagated to the other replicas.
+Since the change propagation is not instantaneous, there’s an interval of time during which some of the copies will have the most recent change, but others won’t.
+In other words, the copies will be mutually inconsistent. However, the change will eventually be propagated to all the copies, and hence the term “eventual consistency”.
+The term eventual consistency is simply an acknowledgement that there is an unbounded delay in propagating a change made on one machine to all the other copies.
+Eventual consistency is not meaningful or relevant in centralized (single copy) systems since there’s no need for propagation.&lt;/p&gt;
 
 </description>
         
-        <pubDate>Wed, 10 Feb 2016 00:00:00 +0200</pubDate>
+        <pubDate>Wed, 01 Mar 2017 00:00:00 +0200</pubDate>
         <link>
-        http://localhost:4000/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/welcome-to-jekyll.html</guid>
+        http://localhost:4000/eventual-consistency.html</link>
+        <guid isPermaLink="true">http://localhost:4000/eventual-consistency.html</guid>
       </item>
       
     
       
       <item>
-        <title>Testing</title>
+        <title>CAP Theorem</title>
         
-          <description>&lt;h1 id=&quot;header-1&quot;&gt;Header 1&lt;/h1&gt;
+          <description>&lt;h2 id=&quot;cap---consistency-availability-partition-tolerance&quot;&gt;CAP - Consistency, Availability, Partition Tolerance&lt;/h2&gt;
 
 </description>
         
-        <pubDate>Wed, 10 Feb 2016 00:00:00 +0200</pubDate>
+        <pubDate>Tue, 28 Feb 2017 00:00:00 +0200</pubDate>
         <link>
-        http://localhost:4000/testing.html</link>
-        <guid isPermaLink="true">http://localhost:4000/testing.html</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Guest Posts</title>
-        
-          <description>&lt;p&gt;Chaplin has support for guest posts. That means that if you were to have another blogger write on your blog, just edit the &lt;code class=&quot;highlighter-rouge&quot;&gt;YAML&lt;/code&gt; front matter like so:&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Wed, 10 Feb 2016 00:00:00 +0200</pubDate>
-        <link>
-        http://localhost:4000/guest-posts.html</link>
-        <guid isPermaLink="true">http://localhost:4000/guest-posts.html</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Example Content</title>
-        
-          <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper est in imperdiet molestie. Curabitur aliquet sem in ante venenatis.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Wed, 10 Feb 2016 00:00:00 +0200</pubDate>
-        <link>
-        http://localhost:4000/example-content.html</link>
-        <guid isPermaLink="true">http://localhost:4000/example-content.html</guid>
+        http://localhost:4000/cap-theorem.html</link>
+        <guid isPermaLink="true">http://localhost:4000/cap-theorem.html</guid>
       </item>
       
     

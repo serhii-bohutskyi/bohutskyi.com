@@ -9,9 +9,12 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     {{ content }}
 </div>
+
+{% if site.show_share %}
 <div class="container">
     {% include share.html %}
 </div>
+{% endif %}
 
 {% if site.about_footer %}
     {% include about.html %}
