@@ -1,0 +1,23 @@
+---
+title: Two-phase commit protocol - 2PC
+description: 2pc,two-phase commit protocol,two-phase,phase,commit,protocol,database
+---
+
+2PC is a distributed algorithm that coordinates all the processes that
+participate in a distributed atomic transaction to ensure that either all
+the resources are updated or none of them.
+
+Two phase commit protocol is an atomic commitment protocol for distributed
+systems. This protocol as its name implies consists of two phases.
+The first one is commit-request phase in which transaction manager coordinates
+all of the transaction resources to commit or abort. In the commit-phase,
+transaction manager decides to finalize operation by committing or
+aborting according to the votes of the each transaction resource.
+
+2PC protocol guarantees global atomicity, its biggest drawback is that
+it is a blocking protocol. Whenever the coordinator fails, cohort sites
+will have to wait for its recovery. This is undesirable as these sites
+may be holding locks on the resources. In the event of message loss,
+the two-phase protocol will result in the sending of more messages.
+
+![]({{site.baseurl}}/images/2pc2.gif)

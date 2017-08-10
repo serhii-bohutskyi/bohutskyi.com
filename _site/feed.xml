@@ -8,6 +8,154 @@
     
       
       <item>
+        <title>Getter Template with Optional&lt;&gt; for IntelliJ IDEA</title>
+        
+          <description>&lt;p&gt;If you are working with Java 8 and Intellij IDEA, good practice to use
+Optional for getters, of course depending on logic as well.
+I’ll show how to quick configure IDE for generation such getters&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 02 Jul 2017 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/getter-template-with-optional-in-idea.html</link>
+        <guid isPermaLink="true">http://localhost:4000/getter-template-with-optional-in-idea.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Java Keytool</title>
+        
+          <description>&lt;p&gt;Java Keytool is a key and certificate management utility. It allows users
+to manage their own public/private key pairs and certificates. It also
+allows users to cache certificates. Java Keytool stores the keys and
+certificates in what is called a keystore. By default the Java keystore
+is implemented as a file. It protects private keys with a password. A Keytool
+keystore contains the private key and any certificates necessary to complete
+a chain of trust and establish the trustworthiness of the primary certificate.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 17 Jun 2017 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/keytool.html</link>
+        <guid isPermaLink="true">http://localhost:4000/keytool.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>NoSQL Databases Types</title>
+        
+          <description>&lt;p&gt;There are 4 basic types of NoSQL databases:&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 11 May 2017 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/nosql-database-types.html</link>
+        <guid isPermaLink="true">http://localhost:4000/nosql-database-types.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Three-phase commit protocol - 3PC</title>
+        
+          <description>&lt;p&gt;Three-phase commit protocol (3PC) is a distributed algorithm which lets
+all nodes in a distributed system agree to commit a transaction. Unlike
+the two-phase commit protocol (2PC) however, 3PC is non-blocking.
+Specifically, 3PC places an upper bound on the amount of time required
+before a transaction either commits or aborts. This property ensures
+that if a given transaction is attempting to commit via 3PC and holds
+resource locks, it will release the locks after the timeout.
+Three-Phase Commit protocol - a non-blocking protocol.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 10 May 2017 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/3pc.html</link>
+        <guid isPermaLink="true">http://localhost:4000/3pc.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Data normalization</title>
+        
+          <description>&lt;p&gt;Data normalization is a process then data attributes within a data model
+are organized  in the columns and tables of a relational database to
+reduce data redundancy, improve data integrity and to increase the
+cohesion of entity types.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 07 May 2017 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/data-normalization.html</link>
+        <guid isPermaLink="true">http://localhost:4000/data-normalization.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Data denormalization</title>
+        
+          <description>&lt;p&gt;Denormalization is the process for improving the read performance of a
+database, at the expense of losing write performance, by adding redundant
+copies of data or by grouping data.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 07 May 2017 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/data-denormalization.html</link>
+        <guid isPermaLink="true">http://localhost:4000/data-denormalization.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Load Balancing Algorithms</title>
+        
+          <description>&lt;p&gt;Load balancers distribute traffic among multiple backend servers.
+If one of those servers goes down, a load balancer will redirect traffic
+to the others, assuring that your services continue to be available.
+A load balancer also allows you to add additional resources to handle a
+temporary traffic spike or a more consistent increase in demand.
+Load balancing aims to optimize resource use, maximize throughput,
+minimize response time, and avoid overload of any single resource.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 06 May 2017 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/load-balancing-algorithms.html</link>
+        <guid isPermaLink="true">http://localhost:4000/load-balancing-algorithms.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Two-phase commit protocol - 2PC</title>
+        
+          <description>&lt;p&gt;2PC is a distributed algorithm that coordinates all the processes that
+participate in a distributed atomic transaction to ensure that either all
+the resources are updated or none of them.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 06 May 2017 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/2pc.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2pc.html</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Transaction properties - ACID</title>
         
           <description>&lt;p&gt;&lt;strong&gt;ACID&lt;/strong&gt; (atomicity, consistency, isolation, and durability) is an acronym
@@ -106,6 +254,21 @@ Eventual consistency is not meaningful or relevant in centralized (single copy) 
     
       
       <item>
+        <title>S.O.L.I.D principles</title>
+        
+          <description>&lt;p&gt;The S.O.L.I.D principles of Object Oriented Design(OOD) include these five principles.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 02 Jan 2017 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/solid-principles.html</link>
+        <guid isPermaLink="true">http://localhost:4000/solid-principles.html</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Teamcity</title>
         
           <description>&lt;h2 id=&quot;teamcity&quot;&gt;TeamCity&lt;/h2&gt;
@@ -176,6 +339,24 @@ Eventual consistency is not meaningful or relevant in centralized (single copy) 
         <link>
         http://localhost:4000/elasticsearch.html</link>
         <guid isPermaLink="true">http://localhost:4000/elasticsearch.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Inversion of Control - Pattern</title>
+        
+          <description>&lt;p&gt;Inversion of Control is a design pattern means injecting dependencies
+into a component when it is constructed, by that to invert a control of
+dependencies creation goes to outside. It leads to decoupling components
+and layers in the system.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 01 Jan 2017 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/ioc.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ioc.html</guid>
       </item>
       
     

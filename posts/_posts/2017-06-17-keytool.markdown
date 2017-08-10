@@ -1,0 +1,58 @@
+---
+title: Java Keytool
+description: java,keytool,certificate
+---
+
+Java Keytool is a key and certificate management utility. It allows users
+to manage their own public/private key pairs and certificates. It also
+allows users to cache certificates. Java Keytool stores the keys and
+certificates in what is called a keystore. By default the Java keystore
+is implemented as a file. It protects private keys with a password. A Keytool
+keystore contains the private key and any certificates necessary to complete
+a chain of trust and establish the trustworthiness of the primary certificate.
+
+
+Each certificate in a Java keystore is associated with a unique alias. When
+creating a Java keystore you will first create the .jks file that will initially
+only contain the private key. You will then generate a CSR and have a
+certificate generated from it. Then you will import the certificate to the
+keystore including any root certificates. Java Keytool also several other
+functions that allow you to view the details of a certificate or list the
+certificates contained in a keystore or export a certificate.
+
+Keytool location:
+
+```bash
+$JAVA_HOME/jre/bin/keytool
+```
+
+Default password for keystore in keytool:
+
+```bash
+changeit
+```
+
+View keystore information:
+
+```bash
+keytool -list -v -keystore privateKey.store
+```
+
+View Java certificates:
+
+```bash
+$JAVA_HOME/jre/bin/keytool -list -v -keystore $JAVA_HOME/jre/lib/security/cacerts
+```
+
+
+Install certificate:
+
+```bash
+keytool -importcert -file certificate.cer -keystore keystore.jks -alias "Alias"
+```
+
+Install certificate to java keystore:
+
+```bash
+$JAVA_HOME/jre/bin/keytool -importcert -file certificate.cer -keystore $JAVA_HOME/jre/lib/security/cacerts
+```

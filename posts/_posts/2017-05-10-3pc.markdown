@@ -1,0 +1,15 @@
+---
+title: Three-phase commit protocol - 3PC
+description: 3pc,phase,commit,protocol
+---
+
+Three-phase commit protocol (3PC) is a distributed algorithm which lets
+all nodes in a distributed system agree to commit a transaction. Unlike
+the two-phase commit protocol (2PC) however, 3PC is non-blocking.
+Specifically, 3PC places an upper bound on the amount of time required
+before a transaction either commits or aborts. This property ensures
+that if a given transaction is attempting to commit via 3PC and holds
+resource locks, it will release the locks after the timeout.
+Three-Phase Commit protocol - a non-blocking protocol.
+
+![]({{site.baseurl}}/images/3pc.png)
