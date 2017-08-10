@@ -1,0 +1,6 @@
+## Travis CI
+
+![]({{site.baseurl}}/images/travis.jpg)
+
+Test and Deploy with Confidence. Easily sync your GitHub projects with Travis and you'll be testing your code in minutes!
+

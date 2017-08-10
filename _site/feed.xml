@@ -26,24 +26,6 @@ properties of database transactions.&lt;/p&gt;
     
       
       <item>
-        <title>Transaction properties - ACID</title>
-        
-          <description>&lt;p&gt;&lt;strong&gt;ACID&lt;/strong&gt; (atomicity, consistency, isolation, and durability) is an acronym
-primary attributes ensured to any transaction by a transaction manager
-(which is also called a transaction monitor) or simplifying is a set of
-properties of database transactions.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Thu, 02 Mar 2017 00:00:00 +0200</pubDate>
-        <link>
-        http://localhost:4000/transaction-properties.html</link>
-        <guid isPermaLink="true">http://localhost:4000/transaction-properties.html</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>Eventual consistency</title>
         
           <description>&lt;p&gt;A distributed system maintains copies of its data on multiple machines in order to provide high availability and scalability.
@@ -74,6 +56,156 @@ Eventual consistency is not meaningful or relevant in centralized (single copy) 
         <link>
         http://localhost:4000/cap-theorem.html</link>
         <guid isPermaLink="true">http://localhost:4000/cap-theorem.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Nginx</title>
+        
+          <description>&lt;h2 id=&quot;nginx&quot;&gt;NGINX&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Wed, 04 Jan 2017 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/nginx.html</link>
+        <guid isPermaLink="true">http://localhost:4000/nginx.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Mongodb</title>
+        
+          <description>&lt;h2 id=&quot;mongodb&quot;&gt;MongoDB&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Tue, 03 Jan 2017 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/mongodb.html</link>
+        <guid isPermaLink="true">http://localhost:4000/mongodb.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Kibana</title>
+        
+          <description>&lt;h2 id=&quot;kibana&quot;&gt;Kibana&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 02 Jan 2017 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/kibana.html</link>
+        <guid isPermaLink="true">http://localhost:4000/kibana.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Teamcity</title>
+        
+          <description>&lt;h2 id=&quot;teamcity&quot;&gt;TeamCity&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 01 Jan 2017 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/teamcity.html</link>
+        <guid isPermaLink="true">http://localhost:4000/teamcity.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Ribbon</title>
+        
+          <description>&lt;h2 id=&quot;ribbon---netflix-oss&quot;&gt;Ribbon - Netflix OSS&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 01 Jan 2017 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/ribbon.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ribbon.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Neo4j</title>
+        
+          <description>&lt;h2 id=&quot;neo4j&quot;&gt;Neo4j&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 01 Jan 2017 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/neo4j.html</link>
+        <guid isPermaLink="true">http://localhost:4000/neo4j.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Hystrix</title>
+        
+          <description>&lt;h2 id=&quot;hystrix---netflix-oss&quot;&gt;Hystrix - Netflix OSS&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 01 Jan 2017 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/hystrix.html</link>
+        <guid isPermaLink="true">http://localhost:4000/hystrix.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Elasticsearch</title>
+        
+          <description>&lt;h2 id=&quot;elasticsearch&quot;&gt;Elasticsearch&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 01 Jan 2017 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/elasticsearch.html</link>
+        <guid isPermaLink="true">http://localhost:4000/elasticsearch.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Travis</title>
+        
+          <description>&lt;h2 id=&quot;travis-ci&quot;&gt;Travis CI&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 10 Jan 2016 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/travis.html</link>
+        <guid isPermaLink="true">http://localhost:4000/travis.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Jenkins</title>
+        
+          <description>&lt;h2 id=&quot;jenkins&quot;&gt;Jenkins&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Wed, 06 Jan 2016 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/jenkins.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jenkins.html</guid>
       </item>
       
     

@@ -1,0 +1,7 @@
+## Ribbon - Netflix OSS
+
+![]({{site.baseurl}}/images/ribbon.png)
+
+Ribbon is a Inter Process Communication (remote procedure calls) library
+with built in software load balancers. The primary usage model involves
+REST calls with various serialization scheme support.
