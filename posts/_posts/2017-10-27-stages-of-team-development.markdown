@@ -33,7 +33,7 @@ People starts give strong commitment.
 Performing stage reaches when team and process normalized.
 As a leader, you can delegate much of your work, and you can concentrate on developing team members.
 
-## Adjourning
+## Adjourning or mourning
 
 Many teams will reach this stage eventually.
 Once a project ends, the team disbands. This phase is sometimes known as mourning
