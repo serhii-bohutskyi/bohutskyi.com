@@ -39,6 +39,7 @@ Many teams will reach this stage eventually.
 Once a project ends, the team disbands. This phase is sometimes known as mourning
 because members have grown close and feel a loss now that the experience is over.
 
+##
 
 ![Stages of team development]({{site.baseurl}}/images/four-stages-of-development.png)
 
