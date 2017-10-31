@@ -23,10 +23,10 @@ they can be uncomfortable with the new approach or workload.
 
 ## Norming
 
-When people starts resolve their differences, starts norming phase.
+When people start resolve their differences, starts norming phase.
 They may socialize together. One another can ask for help and provide
 constructive feedback. On this stage progress will be better as before.
-People starts give strong commitment.
+People start give strong commitment.
 
 ## Performing
 
