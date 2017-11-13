@@ -20,5 +20,7 @@ The roadmap has several ultimate goals:
 The roadmap should focus, therefore, on high-level strategic concepts
 — such driving growth, new market penetration, customer satisfaction, or market position.
 
-![Stages of team development]({{site.baseurl}}/images/product-roadmap.png)
+![Product Roadmap sample]({{site.baseurl}}/images/product-roadmap.png)
+
+![Development Roadmap sample]({{site.baseurl}}/images/product-roadmap2.png)
 
