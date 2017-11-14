@@ -24,3 +24,5 @@ The roadmap should focus, therefore, on high-level strategic concepts
 
 ![Development Roadmap sample]({{site.baseurl}}/images/product-roadmap2.png)
 
+![Architecture Roadmap sample]({{site.baseurl}}/images/architecture-roadmap.png)
+
