@@ -1,6 +1,6 @@
 # User Settings | Edit there as per required
 
-title: accent
+title: Serhii Bohutskyi 's blog
 url: "http://bohutskyi.com"
 baseurl: ""
 
@@ -44,7 +44,7 @@ github_username: serhiibh
 facebook_id: 100001800012668
 
 favicon: true
-favicon_location: "images/favicon.ico"
+favicon_location: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAIA_wDGAAAAAQAAAAAAAAxzAAAAJDQ2YzdmM2MyLWUxY2EtNDFlNC04ODAzLWU2ZmYyNTgwYjYzYQ.jpg"
 
 profile_picture: images/temp.png
 paginate: 50
