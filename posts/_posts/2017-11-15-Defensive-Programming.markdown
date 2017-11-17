@@ -27,7 +27,11 @@ It’s just never a bad idea to prevent a random **NullPointerException**
 by putting a known object on the left side of an equals().
 
 ````java
+//Good
 if ("literal".equals(variable)) { ... }
+
+//Bad
+if (variable.equals("literal")) { ... }
 ````
 
 ### Always throw on switch default
