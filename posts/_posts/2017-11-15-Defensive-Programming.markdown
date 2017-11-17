@@ -21,10 +21,10 @@ Just use a rule "Never return a null" in your system and you will not have probl
 If a method is publicly available or receives a input from the outside world,
 enforce some defensive measures like **IllegalArgumentException**.
 
-### Put the known object first
+### Put a known object first
 
-It’s just never a bad idea to prevent the random **NullPointerException**
-by putting the known object on the left side of an equals().
+It’s just never a bad idea to prevent a random **NullPointerException**
+by putting a known object on the left side of an equals().
 
 ````java
 if ("literal".equals(variable)) { ... }
@@ -33,7 +33,7 @@ if ("literal".equals(variable)) { ... }
 ### Always throw on switch default
 
 So many time I saw then somebody has added a new enum item and didn't modify
-the switches which handle a logic by those enums.
+ switches which handle a logic by those enums.
 
 ````java
 switch (animal) {
