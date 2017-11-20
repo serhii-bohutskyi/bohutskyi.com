@@ -39,6 +39,10 @@ Smaller stories tend to get more accurate estimates.
 "Testability" has always been a characteristic of good requirements.
 Actually writing the tests early helps us know whether this goal is met.
 
+# How to split
+![]({{site.baseurl}}/images/how-to-split-a-user-story.png)
+
+
 
 
 
