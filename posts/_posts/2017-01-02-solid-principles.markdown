@@ -39,7 +39,7 @@ A class should be **open** for extension, but closed for modification.
 
 Subtypes must be substitutable for their base types.
 
-![]({{site.baseurl}}/image/LiskovSubtitutionPrinciple.jpg)
+![]({{site.baseurl}}/images/LiskovSubtitutionPrinciple.jpg)
 
 In mathematics, a Square is a Rectangle. Indeed it is a specialization
 of a rectangle. The "is a" makes you want to model this with inheritance.
