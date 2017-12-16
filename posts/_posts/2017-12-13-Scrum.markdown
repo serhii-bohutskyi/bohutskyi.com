@@ -1,0 +1,132 @@
+---
+title: Scrum
+description: scrum,requirements,software,development
+---
+
+# Scrum
+
+Scrum is a process framework for building products.
+The Scrum framework consists in components, such as: roles, events, artifacts, and rules.
+The rules of Scrum bind together the events, roles, and artifacts, managing the relationships
+and interaction between them.
+
+## Characteristics
+Scrum employs an iterative, incremental approach to optimize predictability and control risk.
+
+### Transparent
+Scrum users should be on the same page.
+
+### Iterative
+Each of iteration must provide a working slice of the product.
+
+### Adaptive
+Adjustments must be made as soon as possible to minimize further deviation.
+
+## The Scrum Team
+The Scrum Team consists of a Product Owner (PO), the Development Team, and a Scrum Master (SM).
+
+
+### Product Owner (PO)
+The Scrum product owner is typically a project's key stakeholder.
+Part of the product owner responsibilities is to have a vision of what he/she wishes to build,
+ and convey that vision to the scrum team.
+
+### Development Team
+The Development Team creates and provide the Increment of the product.
+Recommended size of the Development Team is not bigger then 9 people, because
+it would be hard to organize and coordinate a work.
+
+### Scrum Master (SM)
+The Scrum Master is responsible for following Scrum and ensuring that all members of the Scrum Team
+understand process and flows.
+
+## Scrum Events
+### The Sprint
+Sprint is a time-box of one month or less, mostly 2-3 weeks. As a result of the Sprint
+should be useable and potentially releasable Increment of a product. After end of one
+Sprint next Sprint is started immediately.
+
+### Sprint Planning
+At Sprint Planning entire Scrum Team is planning work for the Sprint. It is time-box
+event to a maximum of two-four hours for one two weeks Sprint. On the Planning
+Team decides what can be delivered in upcoming Iteration and how to deliver this work.
+
+### Daily Scrum
+The Daily Scrum is a 15-minute time-boxed event every working day for the Development Team.
+In this event team members must avoid technical details and avoid discussions.
+The daily scrum meeting is not used as a problem-solving or issue resolution meeting.
+By focusing on what each person accomplished yesterday and will accomplish today,
+the team gains an excellent understanding of what work has been done and what work remains.
+
+### Sprint Review
+During Sprint Review, the Scrum Team and stakeholders collaborate about
+what was done in the Spring, and what would be in Iteration.
+During this meeting, the Scrum team shows what they accomplished during the sprint.
+Typically this takes the form of a demo of the new features.
+
+### Sprint Retrospective
+The Spring Retrospective is a meeting there Scrum Team looks for ways
+how current process can be improved.
+Using this approach each team member is asked to identify specific things that the team should:
+* Start doing
+* Stop doing
+* Continue doing
+
+## Scrum Artifacts
+Scrum’s artifacts represent work or value to provide transparency and opportunities
+for inspection and adaptation. Artifacts defined by Scrum are specifically
+designed to maximize transparency of key information so that everybody has
+the same understanding of the artifact.
+
+### Product Backlog
+The Product Backlog is an ordered list of everything that is known to be needed in the product.
+It is the single source of requirements for any changes to be made to the product.
+The Product Owner is responsible for the Product Backlog, including its content, availability, and ordering.
+
+### Sprint Backlog
+The Sprint Backlog is the set of Product Backlog items selected for the Sprint.
+It is a plan for delivering the product Iteration and realizing the Scrum Goal.
+Sprint Backlog belongs solely to the Development Team and only Team can change it during the Sprint.
+Spring Backlog is a high-visible and real-time picture of the Team work.
+
+### Increment
+The Increment is the sum of all the Product Backlog items completed during
+a Sprint and the value of the increments of all previous Sprints. All items must meet the
+Scrum Team's "Definition of Done".
+
+## Definition of "Done" (DoD)
+Definition of Done is a list of activities (writing code, coding comments, unit testing, integration testing, release notes, design documents, etc.)
+that add verifiable/demonstrable value to the product.
+When a Product Backlog item or an Increment is described as "Done", everyone must understand what "Done" means.
+
+In reality, many teams are still working towards a potentially shippable state.  Such teams may have a different DoD at various levels:
+
+* Definition of Done for a feature (story or product backlog item)
+* Definition of Done for a sprint (collection of features developed within a sprint)
+* Definition of Done for a release (potentially shippable state)
+
+## Definition of "Ready" (DoR)
+A checklist of conditions that must be true before a product backlog item is considered ready to pull into a sprint during sprint planning.
+In practice, can be applicable for ready to pull for testing.
+
+## Velocity
+Velocity is a measure of the amount of work a Team can take during a single
+Sprint. Velocity is calculated at the end of the Sprint
+by totaling the Points for all fully completed User Stories.
+Velocity is a empirical observation of previously completed sprints.
+
+
+## Capacity
+Capacity is how much availability the team has for the sprint. This may
+vary based on team members being on vacation, ill, etc. The team should consider
+capacity in determining how many product backlog items to plan for a sprint.
+Capacity is based on the team's expected or projected future availability.
+
+
+
+
+
+
+
+
+![]({{site.baseurl}}/images/Types_Non_functional_requirements.jpg)
