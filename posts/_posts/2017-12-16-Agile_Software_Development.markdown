@@ -12,6 +12,3 @@ teams utilizing the appropriate practices for their context.
 
 ![agile_methodology]({{site.baseurl}}/images/agile_methodology.jpg)
 
-
-
-![what-is-agile-software-dev-model]({{site.baseurl}}/images/what-is-agile-software-dev-model.png)
