@@ -128,5 +128,3 @@ Capacity is based on the team's expected or projected future availability.
 
 
 
-
-![]({{site.baseurl}}/images/Types_Non_functional_requirements.jpg)
