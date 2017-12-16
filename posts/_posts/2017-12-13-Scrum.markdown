@@ -3,9 +3,7 @@ title: Scrum
 description: scrum,requirements,software,development
 ---
 
-# Scrum
-
-Scrum is a process framework for building products.
+**Scrum** is a process framework for building products.
 The Scrum framework consists in components, such as: roles, events, artifacts, and rules.
 The rules of Scrum bind together the events, roles, and artifacts, managing the relationships
 and interaction between them.

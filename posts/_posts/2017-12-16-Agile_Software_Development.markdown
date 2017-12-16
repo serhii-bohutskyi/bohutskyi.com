@@ -3,8 +3,6 @@ title: Agile Software Development
 description: agile,manifesto,principles,agility,manifest,customer,delivery,development
 ---
 
-# Agile Software Development
-
 Agile Software Development is an term for a set of methods and practices
 based on the values and principles expressed in the Agile Manifesto.
 Solutions evolve through collaboration between self-organizing, cross-functional
