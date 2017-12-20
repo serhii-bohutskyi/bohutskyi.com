@@ -50,14 +50,14 @@ Cons:
 * Scope of the project should be defined
 * Poorly constructed WBS may result a negative project outcomes
 
-#### How it looks
+###### How it looks
 
 ![Work Breakdown Structure]({{site.baseurl}}/images/CRM_PSA-WBSResources.png)
 
-#### Process contains
+###### Process contains
 
 ![Process contains]({{site.baseurl}}/images/wbs1.png)
 
-#### Process leads to
+###### Process leads to
 
 ![Process leads to]({{site.baseurl}}/images/wbs2.png)
