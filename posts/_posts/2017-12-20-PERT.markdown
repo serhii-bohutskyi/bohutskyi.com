@@ -1,0 +1,24 @@
+---
+title: PERT
+description: pert,estimation,project,program,evaluation,review,technique,chart,formula
+---
+
+# Program Evaluation Review Technique
+
+PERT is a tool used to plan tasks within a project, making it easier to estimate and schedule.
+
+PERT is a variation on Critical Path Analysis that takes a slightly more
+skeptical view of time estimates made for each project stage.
+
+##### How to use it ?
+Estimate the 3 kinds of time for each activity:
+
+* shortest possible time
+* the most likely length of time
+* the longest time that might be taken if the activity takes longer than expected
+
+Use the formula below to calculate the time for each project stage:
+
+![PERT Formula]({{site.baseurl}}/images/pert_formula.png)
+
+

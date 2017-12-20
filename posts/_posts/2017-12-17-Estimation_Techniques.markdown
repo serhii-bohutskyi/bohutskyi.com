@@ -61,3 +61,44 @@ Cons:
 ###### Process leads to
 
 ![Process leads to]({{site.baseurl}}/images/wbs2.png)
+
+## Planning Poker
+
+Getting everybody in the team involved in the estimating process is critical
+to coming up with accurate estimates that reflect the true understanding
+and investment of the team.
+To begin, team must choose the most easiest task, consider it as 1 ST issue,
+for comparing other tasks with it in future.
+Each team member is given a set of cards with numbers on them.
+The numbers are usually ordered from 0 to 21 using the Fibonacci sequence: 0, 1, 2, 3, 5, 8, 13, and 21.
+Good technique to estimate a very small number of items, from 2 to 10.
+
+Pros:
+* Very accurate
+
+Cons:
+* Very slow
+* All team need to be involved
+* All team members need to have the same vision of the scope of 1 SP
+
+## The Bucket System
+
+Using the same process as Planning Poker, a team estimate items by placing
+them into "buckets". The buckets are numbered by Story/Functional Points.
+So each team member takes feature, read it and place into the bucket. In
+This way can be estimated large numbers of items, from 50 - 500.
+
+Pros:
+* Very fast
+* Collaborative
+
+Cons:
+* Experienced team
+* Roughly estimates
+* Relative results
+
+![The Bucket System]({{site.baseurl}}/images/The-Bucket-System.png)
+
+
+
+
