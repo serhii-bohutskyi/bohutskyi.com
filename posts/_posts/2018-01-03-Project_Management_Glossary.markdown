@@ -8,7 +8,7 @@ Here is list of terms that every project manager should know on day one.
 
 ##### Actual Cost of Work Performed (ACWP)
 This measures the actual cost of work done as opposed to what was budgeted
-in the **Budgeted Cost of Work Performed** (BCWP).
+in the Budgeted Cost of Work Performed (BCWP).
 
 ##### Adaptive Project Framework (APF)
 A project management methodology that grew from the idea that most IT projects
