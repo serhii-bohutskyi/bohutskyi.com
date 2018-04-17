@@ -1,6 +1,6 @@
 ---
 title: Common Quality Attributes
-description: project,management,quality at
+description: project,management,availability,conceptual integrity,interoperability,Maintainability,Manageability,Performance,Reliability,Usability,Testability,Supportability,Security,Scalability,Reusability
 ---
 
 ### Common Quality Attributes
