@@ -69,6 +69,7 @@ markdown: kramdown
 
 gems:
     - jekyll-paginate
+    - jekyll-responsive-image
 
 sass:
     style: compressed
