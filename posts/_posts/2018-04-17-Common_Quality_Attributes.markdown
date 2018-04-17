@@ -3,7 +3,6 @@ title: Common Quality Attributes
 description: project,management,availability,conceptual integrity,interoperability,Maintainability,Manageability,Performance,Reliability,Usability,Testability,Supportability,Security,Scalability,Reusability
 ---
 
-### Common Quality Attributes
 The following table describes the quality attributes covered.
 It categorizes the attributes in four specific areas linked to design, runtime, system, and user qualities.
 Use this table to understand what each of the quality attributes means in terms of your application design.
