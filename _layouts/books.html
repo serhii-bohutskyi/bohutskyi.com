@@ -2,11 +2,25 @@
 layout: default
 ---
 
-<div class="container content" style="text-align: center">
+<div class="container content" style="text-align: left">
     <h1 class="post-title" style="text-align: center">
         Books
     </h1>
     {% for post in site.categories.books %}
+    <h2 class="post-title" style="text-align: center">
+        {{ post.title }}
+    </h2>
+    <h4 class="post-title">
+        {{ post.subtitle }}
+    </h4>
+    <h4 class="post-title">
+        {{ post.authors }}
+    </h4>
+
+    <img src="{{ post.picture }}" alt="{{ post.title }}">
+    <a href="{{site.baseurl}}{{ post.link }}" style="text-align: left">
+        {{ post.title }}
+    </a>
 
     {{ post.content}}
 
