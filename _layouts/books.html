@@ -18,10 +18,14 @@ layout: default
     <div>
         {{ post.authors }}
     </div>
-    <h4 style="text-align: center">
-        <img src="{{ post.picture }}" alt="{{ post.title }}" style="text-align: center">
-    </h4>
-    {{ post.content}}
+    <div style="text-align:inline">
+        <div style="text-align: left">
+            <img src="{{ post.picture }}" alt="{{ post.title }}" style="text-align: center">
+        </div>
+        <div>
+            {{ post.content}}
+        </div>
+    </div>
 
     {% endfor %}
 </div>
