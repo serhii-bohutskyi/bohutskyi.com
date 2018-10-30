@@ -16,12 +16,14 @@ layout: default
     <h4>
         {{ post.authors }}
     </h4>
-
-    <img src="{{ post.picture }}" alt="{{ post.title }}">
-    <a href="{{site.baseurl}}{{ post.link }}" style="text-align: left">
-        {{ post.title }}
-    </a>
-
+    <h4>
+        <img src="{{ post.picture }}" alt="{{ post.title }}" style="text-align: center">
+    </h4>
+    <h4>
+        <a href="{{site.baseurl}}{{ post.link }}" style="text-align: left">
+            {{ post.title }}
+        </a>
+    </h4>
     {{ post.content}}
 
     {% endfor %}
