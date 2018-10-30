@@ -10,20 +10,20 @@ layout: default
     <h2 style="text-align: center">
         {{ post.title }}
     </h2>
-    <h4>
+    <div>
         {{ post.subtitle }}
-    </h4>
-    <h4>
+    </div>
+    <div>
         {{ post.authors }}
-    </h4>
-    <h4>
+    </div>
+    <h4 style="text-align: center">
         <img src="{{ post.picture }}" alt="{{ post.title }}" style="text-align: center">
     </h4>
-    <h4>
-        <a href="{{site.baseurl}}{{ post.link }}" style="text-align: left">
+    <h7>
+        <a href="{{site.baseurl}}{{ post.link }}">
             {{ post.title }}
         </a>
-    </h4>
+    </h7>
     {{ post.content}}
 
     {% endfor %}
