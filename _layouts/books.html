@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="container content" style="text-align: center">
+    <h1 class="post-title" style="text-align: center">
+        Books
+    </h1>
+    {% for post in site.categories.books %}
+
+    {{ post.content}}
+
+    {% endfor %}
+</div>
+
+
+{% assign page.comments = true %}
+
+{% include disqus.html %}
