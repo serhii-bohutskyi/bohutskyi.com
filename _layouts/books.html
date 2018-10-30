@@ -6,24 +6,24 @@ layout: default
     <h1 class="post-title" style="text-align: center">
         Books
     </h1>
-    {% for post in site.categories.books %}
+    {% for book in site.categories.books %}
     <h2 style="text-align: center">
-        {{ post.title }}
+        {{ book.title }}
     </h2>
     <div style="text-align: center">
-        <a href="{{site.baseurl}}{{ post.link }}">
-            {{ post.subtitle }}
+        <a href="{{site.baseurl}}{{ book.link }}">
+            {{ book.subtitle }}
         </a>
     </div>
 
     <div style="text-align: center">
-        {{ post.authors }}
+        {{ book.authors }}
     </div>
 
-    <div>
-        <img src="{{ post.picture }}" alt="{{ post.title }}">
+    <div style="text-align: center">
+        <img src="{{ book.picture }}" alt="{{ book.title }}">
     </div>
-    {{ post.content}}
+    {{ book.content}}
 
     {% endfor %}
 </div>
