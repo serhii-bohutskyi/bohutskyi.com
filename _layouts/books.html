@@ -20,8 +20,10 @@ layout: default
         {{ book.authors }}
     </div>
 
-    <div style="text-align: center; max-width:400px">
-        <img src="{{ book.picture }}" alt="{{ book.title }}">
+    <div style="text-align: center">
+        <div style=" max-width:400px">
+            <img src="{{ book.picture }}" alt="{{ book.title }}">
+        </div>
     </div>
     {{ book.content}}
 
