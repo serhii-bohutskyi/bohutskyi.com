@@ -20,14 +20,10 @@ layout: default
         {{ post.authors }}
     </div>
 
-    <div style="display: flex">
-        <div style="margin:2%, max-width:1000%;height:auto;">
-            <img src="{{ post.picture }}" alt="{{ post.title }}">
-        </div>
-        <div>
-            {{ post.content}}
-        </div>
+    <div>
+        <img src="{{ post.picture }}" alt="{{ post.title }}">
     </div>
+    {{ post.content}}
 
     {% endfor %}
 </div>
