@@ -15,12 +15,14 @@ layout: default
             {{ post.subtitle }}
         </a>
     </div>
-    <div>
+
+    <div style="text-align: center">
         {{ post.authors }}
     </div>
-    <div style="text-align:inline">
-        <div style="text-align: left">
-            <img src="{{ post.picture }}" alt="{{ post.title }}" style="text-align: center">
+
+    <div style="display: flex">
+        <div>
+            <img src="{{ post.picture }}" alt="{{ post.title }}">
         </div>
         <div>
             {{ post.content}}
