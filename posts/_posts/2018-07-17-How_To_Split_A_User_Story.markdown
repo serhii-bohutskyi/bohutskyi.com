@@ -1,5 +1,5 @@
 ---
-title: How To Split A User Story
+title: How to split a user story
 description: agile,user,story
 ---
 
