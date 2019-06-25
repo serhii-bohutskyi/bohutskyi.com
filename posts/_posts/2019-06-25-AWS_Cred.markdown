@@ -7,7 +7,7 @@ AWSCred is a application in NodeJS which helps you keep up to date your access t
 
 
 ### Installation 
-npm i awscred 
+`npm i awscred` 
 
 ### Prerequisites if using NPM
 Need to install NodeJS
