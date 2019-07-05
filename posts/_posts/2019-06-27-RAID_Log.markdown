@@ -1,0 +1,22 @@
+---
+title: RAID Log
+description: raid,log,risk,assumption,issue,dependency,tips
+---
+
+RAID analysis is a project planning technique for identifying key project 
+Risks (R), Assumptions (A), Issues (I), and Dependencies (D). 
+Project teams should complete an initial analysis at the beginning 
+of the project and then monitor the issues via a RAID Log.
+
+The RAID log focuses on four key areas:
+
+* Risks – events that can have an adverse impact if they occur.
+* Assumptions – things you assume are in place which contribute to the success of the project.
+* Issues – current matters that need to be considered and addressed by the group.
+* Dependencies – other projects or triggers that your project depends on, or are a beneficiary of your project outcomes.
+
+![RAID]({{site.baseurl}}/images/raid_analysis_template.png)
+
+
+https://www.groupmap.com/map-templates/raid-log/
+https://expertprogrammanagement.com/2010/10/raid-risks-assumptions-issues-and-dependencies/
