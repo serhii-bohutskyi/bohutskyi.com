@@ -9,4 +9,5 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 * PATCH version when you make backwards compatible bug fixes.
 Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
-https://semver.org/spec/v2.0.0.html
+[Semantic Versioning](https://semver.org/spec/v2.0.0.html "Semantic Versioning")
+
