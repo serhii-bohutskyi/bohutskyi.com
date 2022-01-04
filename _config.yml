@@ -45,7 +45,7 @@ facebook_id: 100001800012668
 linkedin_id: serhii-bohutskyi-1998304a
 
 favicon: true
-favicon_location: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAIA_wDGAAAAAQAAAAAAAAxzAAAAJDQ2YzdmM2MyLWUxY2EtNDFlNC04ODAzLWU2ZmYyNTgwYjYzYQ.jpg"
+favicon_location: "https://bohutskyi.com/images/favicon.png"
 
 profile_picture: images/temp.png
 paginate: 50
