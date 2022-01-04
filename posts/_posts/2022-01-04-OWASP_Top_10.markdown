@@ -1,5 +1,5 @@
 ---
-title: The Open Web Application Security Project
+title: OWASP Top Ten
 description: owasp,The Open Web Application Security Project
 ---
 
