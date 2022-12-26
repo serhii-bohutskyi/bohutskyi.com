@@ -1,20 +1,557 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>accent - Articles</title>
+    <title>Serhii Bohutskyi &apos;s blog - Articles</title>
     <description></description>
     <link>
     http://localhost:4000</link>
     
       
       <item>
+        <title>GitHub Action tricks</title>
+        
+          <description>&lt;h3 id=&quot;environment-variables&quot;&gt;Environment variables&lt;/h3&gt;
+</description>
+        
+        <pubDate>Fri, 02 Dec 2022 00:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/GitHub_actions_tricks.html</link>
+        <guid isPermaLink="true">http://localhost:4000/GitHub_actions_tricks.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>GitHub action make executable script</title>
+        
+          <description>&lt;p&gt;In case of usage script in the GitHub Action you might have such error on execution&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/home/runner/work/_temp/adc06633-b88b-406d-b270-52d79b4e6245.sh: line 1: ./.github/scripts/my_script.sh: Permission denied
+Error: Process completed with &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;code 126.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;To fix this issue need to run this command locally and push changes to the file’s index:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git update-index &lt;span class=&quot;nt&quot;&gt;--chmod&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;+x ./.github/scripts/my_script.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        
+        <pubDate>Thu, 01 Dec 2022 00:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/GitHub_action_executable_script.html</link>
+        <guid isPermaLink="true">http://localhost:4000/GitHub_action_executable_script.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Bash tricks</title>
+        
+          <description>&lt;p&gt;Bash tricks or just code snippets for quick reusage.&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 01 Dec 2022 00:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/Bash_tricks.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Bash_tricks.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Stakeholders matrix</title>
+        
+          <description>&lt;p&gt;Stakeholders matrix is used for preparation architecture design presentation.
+Sample template below&lt;/p&gt;
+</description>
+        
+        <pubDate>Wed, 19 Jan 2022 00:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/Stackholders_matrix.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Stackholders_matrix.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>OWASP Top Ten</title>
+        
+          <description>&lt;p&gt;The Open Web Application Security Project® (OWASP) is a nonprofit foundation that works to improve the security of software. Through community-led open-source software projects, hundreds of local chapters worldwide, tens of thousands of members, and leading educational and training conferences, the OWASP Foundation is the source for developers and technologists to secure the web.&lt;/p&gt;
+</description>
+        
+        <pubDate>Tue, 04 Jan 2022 00:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/OWASP_Top_10.html</link>
+        <guid isPermaLink="true">http://localhost:4000/OWASP_Top_10.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Inter-Process Communication - Microservices</title>
+        
+          <description>&lt;p&gt;Articles:&lt;/p&gt;
+</description>
+        
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/IPC_pattern.html</link>
+        <guid isPermaLink="true">http://localhost:4000/IPC_pattern.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Bulkhead pattern - Microservices</title>
+        
+          <description>&lt;p&gt;The Bulkhead pattern is a type of application design that is tolerant of failure. In a bulkhead architecture, elements of an application are isolated into pools so that if one fails, the others will continue to function. It’s named after the sectioned partitions (bulkheads) of a ship’s hull. If the hull of a ship is compromised, only the damaged section fills with water, which prevents the ship from sinking.&lt;/p&gt;
+</description>
+        
+        <pubDate>Mon, 03 Aug 2020 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/Bulkhead_pattern.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Bulkhead_pattern.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Retry pattern</title>
+        
+          <description>&lt;p&gt;To improve the stability of the application by handling failures of integration with other service by retry operation.&lt;/p&gt;
+</description>
+        
+        <pubDate>Sun, 02 Aug 2020 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/Retry_pattern.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Retry_pattern.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Saga pattern - Microservices</title>
+        
+          <description>&lt;p&gt;Saga is a pattern to maintain data consistency in distributed systems.
+A saga is a sequence of transactions that updates each service and publishes a message or event to trigger the next transaction step.&lt;/p&gt;
+</description>
+        
+        <pubDate>Sat, 01 Aug 2020 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/Saga_pattern.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Saga_pattern.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Kubernetes commands</title>
+        
+          <description>&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kubectl config get-clusters&lt;/code&gt;&lt;/p&gt;
+</description>
+        
+        <pubDate>Wed, 03 Jun 2020 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/Kubernetes_basics.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Kubernetes_basics.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Kubernetes glossary</title>
+        
+          <description>&lt;h2 id=&quot;kubernetes-glossary-for-executives&quot;&gt;KUBERNETES GLOSSARY FOR EXECUTIVES&lt;/h2&gt;
+
+&lt;h3 id=&quot;cluster&quot;&gt;Cluster&lt;/h3&gt;
+</description>
+        
+        <pubDate>Tue, 02 Jun 2020 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/Kubernetes_glossary.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Kubernetes_glossary.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Availability Tactics</title>
+        
+          <description>&lt;p&gt;a = MTBF/(MTBF MTTR)&lt;/p&gt;
+</description>
+        
+        <pubDate>Wed, 26 Feb 2020 00:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/Availability_Tactics.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Availability_Tactics.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Semantic Versioning</title>
+        
+          <description>&lt;p&gt;Given a version number MAJOR.MINOR.PATCH, increment the:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;MAJOR version when you make incompatible API changes,&lt;/li&gt;
+  &lt;li&gt;MINOR version when you add functionality in a backwards compatible manner, and&lt;/li&gt;
+  &lt;li&gt;PATCH version when you make backwards compatible bug fixes.
+Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        
+        <pubDate>Thu, 26 Sep 2019 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/Semantic_Versioning.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Semantic_Versioning.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Risk register</title>
+        
+          <description>&lt;p&gt;Risk register is basically a record of identified risks for a project.&lt;/p&gt;
+</description>
+        
+        <pubDate>Fri, 28 Jun 2019 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/Risk_register.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Risk_register.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>RAID Log</title>
+        
+          <description>&lt;p&gt;RAID analysis is a project planning technique for identifying key project 
+Risks (R), Assumptions (A), Issues (I), and Dependencies (D). 
+Project teams should complete an initial analysis at the beginning 
+of the project and then monitor the issues via a RAID Log.&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 27 Jun 2019 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/RAID_Log.html</link>
+        <guid isPermaLink="true">http://localhost:4000/RAID_Log.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Terraform</title>
+        
+          <description>&lt;p&gt;Terraform is a tool for building, changing, and versioning infrastructure.
+Terraform can manage existing and popular service providers as well as custom in-house solutions.&lt;/p&gt;
+</description>
+        
+        <pubDate>Wed, 26 Jun 2019 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/Terraform.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Terraform.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>AWSCred</title>
+        
+          <description>&lt;p&gt;AWSCred is a application in NodeJS which helps you keep up to date your access token for AWS connection.&lt;/p&gt;
+</description>
+        
+        <pubDate>Tue, 25 Jun 2019 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/AWS_Cred.html</link>
+        <guid isPermaLink="true">http://localhost:4000/AWS_Cred.html</guid>
+      </item>
+      
+    
+      
+    
+      
+    
+      
+      <item>
+        <title>How to split a user story</title>
+        
+          <description>&lt;p&gt;&lt;img src=&quot;/images/how-to-split-a-user-story.png&quot; alt=&quot;yep&quot; /&gt;&lt;/p&gt;
+</description>
+        
+        <pubDate>Tue, 17 Jul 2018 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/How_To_Split_A_User_Story.html</link>
+        <guid isPermaLink="true">http://localhost:4000/How_To_Split_A_User_Story.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Quality Attributes Tactics</title>
+        
+          <description>&lt;p&gt;Software architecture tactics are design decisions that improve individual quality attribute concerns.&lt;/p&gt;
+</description>
+        
+        <pubDate>Sun, 17 Jun 2018 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/Quality_Attributes_Tactics.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Quality_Attributes_Tactics.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Common Quality Attributes</title>
+        
+          <description>&lt;p&gt;The following table describes the quality attributes covered.
+It categorizes the attributes in four specific areas linked to design, runtime, system, and user qualities.
+Use this table to understand what each of the quality attributes means in terms of your application design.&lt;/p&gt;
+</description>
+        
+        <pubDate>Tue, 17 Apr 2018 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/Common_Quality_Attributes.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Common_Quality_Attributes.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Project Management Glossary</title>
+        
+          <description>&lt;p&gt;Project management, like any other industry, has its share of unique terms.
+Here is list of terms that every project manager should know on day one.&lt;/p&gt;
+</description>
+        
+        <pubDate>Wed, 03 Jan 2018 00:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/Project_Management_Glossary.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Project_Management_Glossary.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>PERT</title>
+        
+          <description>&lt;h1 id=&quot;program-evaluation-review-technique&quot;&gt;Program Evaluation Review Technique&lt;/h1&gt;
+</description>
+        
+        <pubDate>Wed, 20 Dec 2017 00:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/PERT.html</link>
+        <guid isPermaLink="true">http://localhost:4000/PERT.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Estimation Techniques</title>
+        
+          <description>&lt;h1 id=&quot;effort-estimation-in-software-development&quot;&gt;Effort Estimation in Software Development&lt;/h1&gt;
+</description>
+        
+        <pubDate>Sun, 17 Dec 2017 00:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/Estimation_Techniques.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Estimation_Techniques.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Agile Software Development</title>
+        
+          <description>&lt;p&gt;Agile Software Development is an term for a set of methods and practices
+based on the values and principles expressed in the Agile Manifesto.
+Solutions evolve through collaboration between self-organizing, cross-functional
+teams utilizing the appropriate practices for their context.&lt;/p&gt;
+</description>
+        
+        <pubDate>Sat, 16 Dec 2017 00:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/Agile_Software_Development.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Agile_Software_Development.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Agile Manifesto Principles</title>
+        
+          <description>&lt;p&gt;1) Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.&lt;/p&gt;
+</description>
+        
+        <pubDate>Sat, 16 Dec 2017 00:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/Agile_Manifesto_Principles.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Agile_Manifesto_Principles.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Agile Manifesto</title>
+        
+          <description>&lt;p&gt;&lt;img src=&quot;/images/what-is-agile-software-dev-model.png&quot; alt=&quot;what-is-agile-software-dev-model&quot; /&gt;&lt;/p&gt;
+</description>
+        
+        <pubDate>Fri, 15 Dec 2017 00:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/Agile_Manifesto.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Agile_Manifesto.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Scrum</title>
+        
+          <description>&lt;p&gt;&lt;strong&gt;Scrum&lt;/strong&gt; is a process framework for building products.
+The Scrum framework consists in components, such as: roles, events, artifacts, and rules.
+The rules of Scrum bind together the events, roles, and artifacts, managing the relationships
+and interaction between them.&lt;/p&gt;
+</description>
+        
+        <pubDate>Wed, 13 Dec 2017 00:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/Scrum.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Scrum.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Nonfunctional Requirements</title>
+        
+          <description>&lt;h1 id=&quot;nonfunctional-requirements&quot;&gt;Nonfunctional Requirements&lt;/h1&gt;
+</description>
+        
+        <pubDate>Tue, 21 Nov 2017 00:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/Nonfunctional-Requirements.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Nonfunctional-Requirements.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Java Unit Tests Notes</title>
+        
+          <description>&lt;h1 id=&quot;mockito&quot;&gt;Mockito&lt;/h1&gt;
+</description>
+        
+        <pubDate>Wed, 15 Nov 2017 00:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/Java-Unit-Tests-Notes.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Java-Unit-Tests-Notes.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Defensive Programming Practice</title>
+        
+          <description>&lt;h1 id=&quot;defensive-programming&quot;&gt;Defensive Programming&lt;/h1&gt;
+</description>
+        
+        <pubDate>Wed, 15 Nov 2017 00:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/Defensive-Programming.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Defensive-Programming.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Automatic failover</title>
+        
+          <description>&lt;h1 id=&quot;automatic-failover&quot;&gt;Automatic failover&lt;/h1&gt;
+</description>
+        
+        <pubDate>Tue, 14 Nov 2017 00:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/Automatic-failover.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Automatic-failover.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Roadmap Software Development</title>
+        
+          <description>&lt;h2 id=&quot;roadmap-software-development&quot;&gt;Roadmap Software Development&lt;/h2&gt;
+</description>
+        
+        <pubDate>Mon, 13 Nov 2017 00:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/Roadmap-Software-Development.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Roadmap-Software-Development.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Story splitting cheat sheet</title>
+        
+          <description>&lt;p&gt;&lt;img src=&quot;/images/story-splitting-cheat-sheet.png&quot; alt=&quot;Story splitting cheat sheet&quot; /&gt;&lt;/p&gt;
+</description>
+        
+        <pubDate>Fri, 27 Oct 2017 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/story-splitting-cheat-sheet.html</link>
+        <guid isPermaLink="true">http://localhost:4000/story-splitting-cheat-sheet.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Stages of team development</title>
+        
+          <description>&lt;h2 id=&quot;about-model&quot;&gt;About Model&lt;/h2&gt;
+</description>
+        
+        <pubDate>Fri, 27 Oct 2017 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/stages-of-team-development.html</link>
+        <guid isPermaLink="true">http://localhost:4000/stages-of-team-development.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>SMART tasks principles</title>
+        
+          <description>&lt;p&gt;&lt;a href=&quot;http://xp123.com/xplor/xp0308/index.shtml&quot;&gt;SMART&lt;/a&gt; model is used for creating effective goals.&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 26 Oct 2017 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/SMART-tasks-principles.html</link>
+        <guid isPermaLink="true">http://localhost:4000/SMART-tasks-principles.html</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>INVEST story principles</title>
+        
+          <description>&lt;p&gt;Good user stories follow Bill Wake’s &lt;a href=&quot;http://xp123.com/xplor/xp0308/index.shtml&quot;&gt;INVEST&lt;/a&gt; model.
+They are Independent, Negotiable, Valuable, Estimable, Small, and Testable.&lt;/p&gt;
+</description>
+        
+        <pubDate>Wed, 25 Oct 2017 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/INVEST-story-principles.html</link>
+        <guid isPermaLink="true">http://localhost:4000/INVEST-story-principles.html</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Pre-commit hook for running checkstyle [GIT]</title>
         
           <description>&lt;p&gt;Open working git repository and find &lt;strong&gt;.git&lt;/strong&gt; directory.&lt;/p&gt;
-
 </description>
         
-        <pubDate>Tue, 15 Aug 2017 00:00:00 +0300</pubDate>
+        <pubDate>Tue, 15 Aug 2017 00:00:00 +0200</pubDate>
         <link>
         http://localhost:4000/pre-commit-checkstyle-git.html</link>
         <guid isPermaLink="true">http://localhost:4000/pre-commit-checkstyle-git.html</guid>
@@ -28,10 +565,9 @@
           <description>&lt;p&gt;Suppose you have many commits in branch &lt;em&gt;feature/story_1&lt;/em&gt; and need to
 prepare pull request with one commit to &lt;em&gt;release/dev&lt;/em&gt; branch.
 For that use temporary branch to backup and take changes.&lt;/p&gt;
-
 </description>
         
-        <pubDate>Tue, 01 Aug 2017 00:00:00 +0300</pubDate>
+        <pubDate>Tue, 01 Aug 2017 00:00:00 +0200</pubDate>
         <link>
         http://localhost:4000/how-to-combine-commits-to-one-commit.html</link>
         <guid isPermaLink="true">http://localhost:4000/how-to-combine-commits-to-one-commit.html</guid>
@@ -45,10 +581,9 @@ For that use temporary branch to backup and take changes.&lt;/p&gt;
           <description>&lt;p&gt;If you are working with Java 8 and Intellij IDEA, good practice to use
 Optional for getters, of course depending on logic as well.
 I’ll show how to quick configure IDE for generation such getters&lt;/p&gt;
-
 </description>
         
-        <pubDate>Sun, 02 Jul 2017 00:00:00 +0300</pubDate>
+        <pubDate>Sun, 02 Jul 2017 00:00:00 +0200</pubDate>
         <link>
         http://localhost:4000/getter-template-with-optional-in-idea.html</link>
         <guid isPermaLink="true">http://localhost:4000/getter-template-with-optional-in-idea.html</guid>
@@ -66,10 +601,9 @@ certificates in what is called a keystore. By default the Java keystore
 is implemented as a file. It protects private keys with a password. A Keytool
 keystore contains the private key and any certificates necessary to complete
 a chain of trust and establish the trustworthiness of the primary certificate.&lt;/p&gt;
-
 </description>
         
-        <pubDate>Sat, 17 Jun 2017 00:00:00 +0300</pubDate>
+        <pubDate>Sat, 17 Jun 2017 00:00:00 +0200</pubDate>
         <link>
         http://localhost:4000/keytool.html</link>
         <guid isPermaLink="true">http://localhost:4000/keytool.html</guid>
@@ -81,10 +615,9 @@ a chain of trust and establish the trustworthiness of the primary certificate.&l
         <title>NoSQL Databases Types</title>
         
           <description>&lt;p&gt;There are 4 basic types of NoSQL databases:&lt;/p&gt;
-
 </description>
         
-        <pubDate>Thu, 11 May 2017 00:00:00 +0300</pubDate>
+        <pubDate>Thu, 11 May 2017 00:00:00 +0200</pubDate>
         <link>
         http://localhost:4000/nosql-database-types.html</link>
         <guid isPermaLink="true">http://localhost:4000/nosql-database-types.html</guid>
@@ -103,10 +636,9 @@ before a transaction either commits or aborts. This property ensures
 that if a given transaction is attempting to commit via 3PC and holds
 resource locks, it will release the locks after the timeout.
 Three-Phase Commit protocol - a non-blocking protocol.&lt;/p&gt;
-
 </description>
         
-        <pubDate>Wed, 10 May 2017 00:00:00 +0300</pubDate>
+        <pubDate>Wed, 10 May 2017 00:00:00 +0200</pubDate>
         <link>
         http://localhost:4000/3pc.html</link>
         <guid isPermaLink="true">http://localhost:4000/3pc.html</guid>
@@ -121,10 +653,9 @@ Three-Phase Commit protocol - a non-blocking protocol.&lt;/p&gt;
 are organized  in the columns and tables of a relational database to
 reduce data redundancy, improve data integrity and to increase the
 cohesion of entity types.&lt;/p&gt;
-
 </description>
         
-        <pubDate>Sun, 07 May 2017 00:00:00 +0300</pubDate>
+        <pubDate>Sun, 07 May 2017 00:00:00 +0200</pubDate>
         <link>
         http://localhost:4000/data-normalization.html</link>
         <guid isPermaLink="true">http://localhost:4000/data-normalization.html</guid>
@@ -138,10 +669,9 @@ cohesion of entity types.&lt;/p&gt;
           <description>&lt;p&gt;Denormalization is the process for improving the read performance of a
 database, at the expense of losing write performance, by adding redundant
 copies of data or by grouping data.&lt;/p&gt;
-
 </description>
         
-        <pubDate>Sun, 07 May 2017 00:00:00 +0300</pubDate>
+        <pubDate>Sun, 07 May 2017 00:00:00 +0200</pubDate>
         <link>
         http://localhost:4000/data-denormalization.html</link>
         <guid isPermaLink="true">http://localhost:4000/data-denormalization.html</guid>
@@ -159,10 +689,9 @@ A load balancer also allows you to add additional resources to handle a
 temporary traffic spike or a more consistent increase in demand.
 Load balancing aims to optimize resource use, maximize throughput,
 minimize response time, and avoid overload of any single resource.&lt;/p&gt;
-
 </description>
         
-        <pubDate>Sat, 06 May 2017 00:00:00 +0300</pubDate>
+        <pubDate>Sat, 06 May 2017 00:00:00 +0200</pubDate>
         <link>
         http://localhost:4000/load-balancing-algorithms.html</link>
         <guid isPermaLink="true">http://localhost:4000/load-balancing-algorithms.html</guid>
@@ -176,10 +705,9 @@ minimize response time, and avoid overload of any single resource.&lt;/p&gt;
           <description>&lt;p&gt;2PC is a distributed algorithm that coordinates all the processes that
 participate in a distributed atomic transaction to ensure that either all
 the resources are updated or none of them.&lt;/p&gt;
-
 </description>
         
-        <pubDate>Sat, 06 May 2017 00:00:00 +0300</pubDate>
+        <pubDate>Sat, 06 May 2017 00:00:00 +0200</pubDate>
         <link>
         http://localhost:4000/2pc.html</link>
         <guid isPermaLink="true">http://localhost:4000/2pc.html</guid>
@@ -194,10 +722,9 @@ the resources are updated or none of them.&lt;/p&gt;
 primary attributes ensured to any transaction by a transaction manager
 (which is also called a transaction monitor) or simplifying is a set of
 properties of database transactions.&lt;/p&gt;
-
 </description>
         
-        <pubDate>Thu, 02 Mar 2017 00:00:00 +0200</pubDate>
+        <pubDate>Thu, 02 Mar 2017 00:00:00 +0100</pubDate>
         <link>
         http://localhost:4000/transaction-properties.html</link>
         <guid isPermaLink="true">http://localhost:4000/transaction-properties.html</guid>
@@ -214,10 +741,9 @@ Since the change propagation is not instantaneous, there’s an interval of time
 In other words, the copies will be mutually inconsistent. However, the change will eventually be propagated to all the copies, and hence the term “eventual consistency”.
 The term eventual consistency is simply an acknowledgement that there is an unbounded delay in propagating a change made on one machine to all the other copies.
 Eventual consistency is not meaningful or relevant in centralized (single copy) systems since there’s no need for propagation.&lt;/p&gt;
-
 </description>
         
-        <pubDate>Wed, 01 Mar 2017 00:00:00 +0200</pubDate>
+        <pubDate>Wed, 01 Mar 2017 00:00:00 +0100</pubDate>
         <link>
         http://localhost:4000/eventual-consistency.html</link>
         <guid isPermaLink="true">http://localhost:4000/eventual-consistency.html</guid>
@@ -229,10 +755,9 @@ Eventual consistency is not meaningful or relevant in centralized (single copy) 
         <title>CAP Theorem</title>
         
           <description>&lt;h2 id=&quot;cap---consistency-availability-partition-tolerance&quot;&gt;CAP - Consistency, Availability, Partition Tolerance&lt;/h2&gt;
-
 </description>
         
-        <pubDate>Tue, 28 Feb 2017 00:00:00 +0200</pubDate>
+        <pubDate>Tue, 28 Feb 2017 00:00:00 +0100</pubDate>
         <link>
         http://localhost:4000/cap-theorem.html</link>
         <guid isPermaLink="true">http://localhost:4000/cap-theorem.html</guid>
@@ -244,10 +769,9 @@ Eventual consistency is not meaningful or relevant in centralized (single copy) 
         <title>Nginx</title>
         
           <description>&lt;h2 id=&quot;nginx&quot;&gt;NGINX&lt;/h2&gt;
-
 </description>
         
-        <pubDate>Wed, 04 Jan 2017 00:00:00 +0200</pubDate>
+        <pubDate>Wed, 04 Jan 2017 00:00:00 +0100</pubDate>
         <link>
         http://localhost:4000/nginx.html</link>
         <guid isPermaLink="true">http://localhost:4000/nginx.html</guid>
@@ -259,10 +783,9 @@ Eventual consistency is not meaningful or relevant in centralized (single copy) 
         <title>Mongodb</title>
         
           <description>&lt;h2 id=&quot;mongodb&quot;&gt;MongoDB&lt;/h2&gt;
-
 </description>
         
-        <pubDate>Tue, 03 Jan 2017 00:00:00 +0200</pubDate>
+        <pubDate>Tue, 03 Jan 2017 00:00:00 +0100</pubDate>
         <link>
         http://localhost:4000/mongodb.html</link>
         <guid isPermaLink="true">http://localhost:4000/mongodb.html</guid>
@@ -274,10 +797,9 @@ Eventual consistency is not meaningful or relevant in centralized (single copy) 
         <title>Kibana</title>
         
           <description>&lt;h2 id=&quot;kibana&quot;&gt;Kibana&lt;/h2&gt;
-
 </description>
         
-        <pubDate>Mon, 02 Jan 2017 00:00:00 +0200</pubDate>
+        <pubDate>Mon, 02 Jan 2017 00:00:00 +0100</pubDate>
         <link>
         http://localhost:4000/kibana.html</link>
         <guid isPermaLink="true">http://localhost:4000/kibana.html</guid>
@@ -289,10 +811,9 @@ Eventual consistency is not meaningful or relevant in centralized (single copy) 
         <title>S.O.L.I.D principles</title>
         
           <description>&lt;p&gt;The S.O.L.I.D principles of Object Oriented Design(OOD) include these five principles.&lt;/p&gt;
-
 </description>
         
-        <pubDate>Mon, 02 Jan 2017 00:00:00 +0200</pubDate>
+        <pubDate>Mon, 02 Jan 2017 00:00:00 +0100</pubDate>
         <link>
         http://localhost:4000/solid-principles.html</link>
         <guid isPermaLink="true">http://localhost:4000/solid-principles.html</guid>
@@ -304,10 +825,9 @@ Eventual consistency is not meaningful or relevant in centralized (single copy) 
         <title>Teamcity</title>
         
           <description>&lt;h2 id=&quot;teamcity&quot;&gt;TeamCity&lt;/h2&gt;
-
 </description>
         
-        <pubDate>Sun, 01 Jan 2017 00:00:00 +0200</pubDate>
+        <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
         <link>
         http://localhost:4000/teamcity.html</link>
         <guid isPermaLink="true">http://localhost:4000/teamcity.html</guid>
@@ -319,10 +839,9 @@ Eventual consistency is not meaningful or relevant in centralized (single copy) 
         <title>Ribbon</title>
         
           <description>&lt;h2 id=&quot;ribbon---netflix-oss&quot;&gt;Ribbon - Netflix OSS&lt;/h2&gt;
-
 </description>
         
-        <pubDate>Sun, 01 Jan 2017 00:00:00 +0200</pubDate>
+        <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
         <link>
         http://localhost:4000/ribbon.html</link>
         <guid isPermaLink="true">http://localhost:4000/ribbon.html</guid>
@@ -334,10 +853,9 @@ Eventual consistency is not meaningful or relevant in centralized (single copy) 
         <title>Neo4j</title>
         
           <description>&lt;h2 id=&quot;neo4j&quot;&gt;Neo4j&lt;/h2&gt;
-
 </description>
         
-        <pubDate>Sun, 01 Jan 2017 00:00:00 +0200</pubDate>
+        <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
         <link>
         http://localhost:4000/neo4j.html</link>
         <guid isPermaLink="true">http://localhost:4000/neo4j.html</guid>
@@ -349,10 +867,9 @@ Eventual consistency is not meaningful or relevant in centralized (single copy) 
         <title>Hystrix</title>
         
           <description>&lt;h2 id=&quot;hystrix---netflix-oss&quot;&gt;Hystrix - Netflix OSS&lt;/h2&gt;
-
 </description>
         
-        <pubDate>Sun, 01 Jan 2017 00:00:00 +0200</pubDate>
+        <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
         <link>
         http://localhost:4000/hystrix.html</link>
         <guid isPermaLink="true">http://localhost:4000/hystrix.html</guid>
@@ -364,10 +881,9 @@ Eventual consistency is not meaningful or relevant in centralized (single copy) 
         <title>Elasticsearch</title>
         
           <description>&lt;h2 id=&quot;elasticsearch&quot;&gt;Elasticsearch&lt;/h2&gt;
-
 </description>
         
-        <pubDate>Sun, 01 Jan 2017 00:00:00 +0200</pubDate>
+        <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
         <link>
         http://localhost:4000/elasticsearch.html</link>
         <guid isPermaLink="true">http://localhost:4000/elasticsearch.html</guid>
@@ -382,10 +898,9 @@ Eventual consistency is not meaningful or relevant in centralized (single copy) 
 into a component when it is constructed, by that to invert a control of
 dependencies creation goes to outside. It leads to decoupling components
 and layers in the system.&lt;/p&gt;
-
 </description>
         
-        <pubDate>Sun, 01 Jan 2017 00:00:00 +0200</pubDate>
+        <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
         <link>
         http://localhost:4000/ioc.html</link>
         <guid isPermaLink="true">http://localhost:4000/ioc.html</guid>
@@ -397,10 +912,9 @@ and layers in the system.&lt;/p&gt;
         <title>Travis</title>
         
           <description>&lt;h2 id=&quot;travis-ci&quot;&gt;Travis CI&lt;/h2&gt;
-
 </description>
         
-        <pubDate>Sun, 10 Jan 2016 00:00:00 +0200</pubDate>
+        <pubDate>Sun, 10 Jan 2016 00:00:00 +0100</pubDate>
         <link>
         http://localhost:4000/travis.html</link>
         <guid isPermaLink="true">http://localhost:4000/travis.html</guid>
@@ -412,10 +926,9 @@ and layers in the system.&lt;/p&gt;
         <title>Jenkins</title>
         
           <description>&lt;h2 id=&quot;jenkins&quot;&gt;Jenkins&lt;/h2&gt;
-
 </description>
         
-        <pubDate>Wed, 06 Jan 2016 00:00:00 +0200</pubDate>
+        <pubDate>Wed, 06 Jan 2016 00:00:00 +0100</pubDate>
         <link>
         http://localhost:4000/jenkins.html</link>
         <guid isPermaLink="true">http://localhost:4000/jenkins.html</guid>
