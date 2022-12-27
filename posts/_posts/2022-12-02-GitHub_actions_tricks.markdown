@@ -4,14 +4,17 @@ description: github,action,workflow,tricks
 ---
 
 ### Environment variables
-
-https://docs.github.com/en/actions/learn-github-actions/environment-variables#default-environment-variables
+[GitHub Action Documentation](https://docs.github.com/en/actions/learn-github-actions/environment-variables#default-environment-variables)
 
 Sample
+{% raw %}
 ```yaml
 ${{ github.workspace }}
 ```
+{% endraw %}
+
 Usage
+{% raw %}
 ```yaml
 - name: Archive 
   uses: actions/upload-artifact@v3
@@ -19,11 +22,13 @@ Usage
     name: test-report
     path: ${{ github.workspace }}/test_report.zip
 ```
+{% endraw %}
 
 ### Workflow with manual run
 
 Workflow with manual run and input for branch
 
+{% raw %}
 ```yaml
 name: Workflow_name
 on:
@@ -34,32 +39,40 @@ on:
         required: true
         default: 'main'
 ```
+{% endraw %}
 
 ### Concurrency in the workflow
+{% raw %}
 ```yaml
 concurrency:
-  group: workflow_name-${{ github.event.inputs.branch || github.ref }}
+  group: workflow_name-${{ inputs.branch || github.ref }}
   cancel-in-progress: true
 ```
+{% endraw %}
 
 ### Checkout action
 Checkout GitHub repository with corresponding branch
+{% raw %}
 ```yaml
 - uses: actions/checkout@v3
   with:
-    ref: ${{ github.event.inputs.branch }}
+    ref: ${{ inputs.branch }}
 ```
+{% endraw %}
 
 ### Java setup action
+{% raw %}
 ```yaml
 - uses: actions/setup-java@v3
   with:
     distribution: 'adopt'
     java-version: 17
 ```
+{% endraw %}
 
 ### Archive action
 
+{% raw %}
 ```yaml
 - name: Archive 
   uses: actions/upload-artifact@v3
@@ -68,11 +81,13 @@ Checkout GitHub repository with corresponding branch
     path: ${{ github.workspace }}/test_report.zip
     retention-days: 5
 ```
+{% endraw %}
 
 ### Zip action
 
 https://github.com/marketplace/actions/easy-zip-files
 
+{% raw %}
 ```yaml
 - uses: vimtor/action-zip@v1.1
   with:
@@ -80,13 +95,16 @@ https://github.com/marketplace/actions/easy-zip-files
     recursive: false
     dest: archive_name.zip
 ```
+{% endraw %}
 
 ### Bash script in action
+{% raw %}
 ```yaml
 - name: Run script
   run: ./.github/scripts/my_custom_script.sh -w ${{ github.workspace }} -d true
   shell: bash
 ```
+{% endraw %}
 
 ### Permission for a script
 
@@ -103,13 +121,16 @@ $ git update-index --chmod=+x ./.github/scripts/my_script.sh
 ### Google Java Format Action
 https://github.com/axel-op/googlejavaformat-action
 
+{% raw %}
 ```yaml
 - uses: axel-op/googlejavaformat-action@v3
   with:
     args: "--skip-sorting-imports --replace"
 ```
+{% endraw %}
 
 ## Template for the java workflow
+{% raw %}
 ```yaml
 name: Run coverage
 #manual run
@@ -122,18 +143,18 @@ on:
         default: 'main'
 
 concurrency:
-  group: coverage-${{ github.event.inputs.branch || github.ref }}
+  group: coverage-${{ inputs.branch || github.ref }}
   cancel-in-progress: true
 
 jobs:
   run_coverage:
-    name: Coverage (${{ github.event.inputs.branch || github.ref }})
+    name: Coverage (${{ inputs.branch || github.ref }})
     runs-on: ubuntu-latest
     steps:
 #     checkout
       - uses: actions/checkout@v3
         with:
-          ref: ${{ github.event.inputs.branch }}
+          ref: ${{ inputs.branch }}
 #     java install
       - uses: actions/setup-java@v3
         with:
@@ -160,3 +181,4 @@ jobs:
           path: ${{ github.workspace }}/coverage_report.zip
           retention-days: 5
 ```
+{% endraw %}

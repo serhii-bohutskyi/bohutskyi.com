@@ -11,6 +11,7 @@
         <title>GitHub Action tricks</title>
         
           <description>&lt;h3 id=&quot;environment-variables&quot;&gt;Environment variables&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.github.com/en/actions/learn-github-actions/environment-variables#default-environment-variables&quot;&gt;GitHub Action Documentation&lt;/a&gt;&lt;/p&gt;
 </description>
         
         <pubDate>Fri, 02 Dec 2022 00:00:00 +0100</pubDate>
