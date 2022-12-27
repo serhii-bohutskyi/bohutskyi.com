@@ -705,9 +705,9 @@ minimize response time, and avoid overload of any single resource.&lt;/p&gt;
       <item>
         <title>Two-phase commit protocol - 2PC</title>
         
-          <description>&lt;p&gt;2PC is a distributed algorithm that coordinates all the processes that
-participate in a distributed atomic transaction to ensure that either all
-the resources are updated or none of them.&lt;/p&gt;
+          <description>&lt;p&gt;The two-phase commit protocol (&lt;strong&gt;2PC&lt;/strong&gt;) is a distributed &lt;strong&gt;algorithm&lt;/strong&gt; that coordinates all the processes that
+participate in a distributed &lt;strong&gt;atomic&lt;/strong&gt; transaction to ensure that either all
+the resources are updated, or none of them.&lt;/p&gt;
 </description>
         
         <pubDate>Sat, 06 May 2017 00:00:00 +0200</pubDate>
