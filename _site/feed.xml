@@ -631,14 +631,9 @@ a chain of trust and establish the trustworthiness of the primary certificate.&l
       <item>
         <title>Three-phase commit protocol - 3PC</title>
         
-          <description>&lt;p&gt;Three-phase commit protocol (3PC) is a distributed algorithm which lets
-all nodes in a distributed system agree to commit a transaction. Unlike
-the two-phase commit protocol (2PC) however, 3PC is non-blocking.
-Specifically, 3PC places an upper bound on the amount of time required
-before a transaction either commits or aborts. This property ensures
-that if a given transaction is attempting to commit via 3PC and holds
-resource locks, it will release the locks after the timeout.
-Three-Phase Commit protocol - a non-blocking protocol.&lt;/p&gt;
+          <description>&lt;p&gt;Three-phase commit protocol (&lt;strong&gt;3PC&lt;/strong&gt;) is a distributed algorithm that lets
+all nodes in a &lt;strong&gt;distributed&lt;/strong&gt; system agree to commit a transaction. Unlike
+the two-phase commit protocol (2PC), however, 3PC is &lt;strong&gt;non-blocking&lt;/strong&gt;.&lt;/p&gt;
 </description>
         
         <pubDate>Wed, 10 May 2017 00:00:00 +0200</pubDate>

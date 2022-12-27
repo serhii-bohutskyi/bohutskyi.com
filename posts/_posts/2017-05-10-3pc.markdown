@@ -2,14 +2,32 @@
 title: Three-phase commit protocol - 3PC
 description: 3pc,phase,commit,protocol
 ---
+Three-phase commit protocol (**3PC**) is a distributed algorithm that lets
+all nodes in a **distributed** system agree to commit a transaction. Unlike
+the two-phase commit protocol (2PC), however, 3PC is **non-blocking**.
 
-Three-phase commit protocol (3PC) is a distributed algorithm which lets
-all nodes in a distributed system agree to commit a transaction. Unlike
-the two-phase commit protocol (2PC) however, 3PC is non-blocking.
-Specifically, 3PC places an upper bound on the amount of time required
+Specifically, 3PC places an upper bound on the required time
 before a transaction either commits or aborts. This property ensures
-that if a given transaction is attempting to commit via 3PC and holds
+that if a given transaction attempts to commit via 3PC and holds
 resource locks, it will release the locks after the timeout.
-Three-Phase Commit protocol - a non-blocking protocol.
 
 ![]({{site.baseurl}}/images/3pc.png)
+
+The three-phase commit protocol consists of the following steps:
+
+1. The coordinator sends a request to all participants to prepare to commit the transaction.
+2. Each participant prepares to commit the transaction by performing any necessary actions, such as acquiring locks or reserving resources.
+3. Each participant sends a response to the coordinator indicating whether it is ready to commit the transaction.
+4. If all participants are ready to commit the transaction, the coordinator sends a commit request to all participants.
+5. Each participant commits the transaction by making the necessary changes to its database or other resources.
+6. Each participant sends a confirmation to the coordinator that the transaction has been committed.
+7. The coordinator sends a final confirmation to all participants that the transaction has been committed.
+
+If any participant is not ready to commit the transaction, the coordinator sends a rollback request to all participants, and the transaction is rolled back.
+
+The three-phase commit protocol adds an additional phase to the two-phase commit protocol in which the coordinator receives
+confirmation from all participants that the transaction has been committed. This allows the coordinator to ensure that
+the transaction has been successfully committed even if one or more participants fail or become unavailable.
+
+However, it also adds additional overhead and complexity to the process, as it requires more communication between
+the coordinator and the participants.
