@@ -51,4 +51,4 @@ year-month-day-name-of-the-file.markdown
 
 ### License
 
-[MIT](https://github.com/bk2dcradle/accent/blob/gh-pages/LICENSE). Copyright &copy; [Ankit Sultana](http://twitter.com/AnkitSultana)
+[MIT](https://github.com/bk2dcradle/accent/blob/gh-pages/LICENSE). Copyright &copy; [Serhii Bohutskyi](http://twitter.com/AnkitSultana)

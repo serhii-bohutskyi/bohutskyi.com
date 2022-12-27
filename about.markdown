@@ -1,7 +1,7 @@
 ---
 layout: about
 title: accent
-author: Ankit Sultana
+author: Serhii Bohutskyi
 permalink: /about
 ---
 

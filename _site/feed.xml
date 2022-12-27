@@ -58,8 +58,10 @@ Error: Process completed with &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt
       <item>
         <title>Stakeholders matrix</title>
         
-          <description>&lt;p&gt;Stakeholders matrix is used for preparation architecture design presentation.
-Sample template below&lt;/p&gt;
+          <description>&lt;p&gt;A stakeholder is a person or group that has an interest or concern in something, especially a business. A stakeholders
+matrix is a tool that is used to identify and analyze the interests and concerns of stakeholders in a project or
+business. It is typically used to help project managers or business leaders understand the needs and expectations of
+stakeholders and to ensure that their concerns are addressed in the planning and execution of a project or business.&lt;/p&gt;
 </description>
         
         <pubDate>Wed, 19 Jan 2022 00:00:00 +0100</pubDate>
@@ -87,7 +89,7 @@ Sample template below&lt;/p&gt;
       <item>
         <title>Inter-Process Communication - Microservices</title>
         
-          <description>&lt;p&gt;Articles:&lt;/p&gt;
+          <description>&lt;p&gt;Inter-process communication (IPC) refers to the mechanisms that allow processes (programs or tasks running on a computer) to communicate with one another. In a microservices architecture, IPC is used to enable communication between the various microservices that make up the system.&lt;/p&gt;
 </description>
         
         <pubDate>Tue, 04 Aug 2020 00:00:00 +0200</pubDate>
@@ -101,7 +103,7 @@ Sample template below&lt;/p&gt;
       <item>
         <title>Bulkhead pattern - Microservices</title>
         
-          <description>&lt;p&gt;The Bulkhead pattern is a type of application design that is tolerant of failure. In a bulkhead architecture, elements of an application are isolated into pools so that if one fails, the others will continue to function. It’s named after the sectioned partitions (bulkheads) of a ship’s hull. If the hull of a ship is compromised, only the damaged section fills with water, which prevents the ship from sinking.&lt;/p&gt;
+          <description>&lt;p&gt;The bulkhead pattern is a software design pattern that is used to improve the resilience and fault tolerance of a system by isolating components or resources. In the context of a microservices architecture, the bulkhead pattern can be used to prevent failures in one service from cascading and affecting other services.&lt;/p&gt;
 </description>
         
         <pubDate>Mon, 03 Aug 2020 00:00:00 +0200</pubDate>
@@ -174,7 +176,7 @@ A saga is a sequence of transactions that updates each service and publishes a m
       <item>
         <title>Availability Tactics</title>
         
-          <description>&lt;p&gt;a = MTBF/(MTBF MTTR)&lt;/p&gt;
+          <description>&lt;p&gt;&lt;strong&gt;Availability tactics&lt;/strong&gt; are strategies and techniques that are used to improve the availability of a system. The goal of availability tactics is to ensure that a system is able to meet the required level of uptime and performance, even in the face of failures or disruptions.&lt;/p&gt;
 </description>
         
         <pubDate>Wed, 26 Feb 2020 00:00:00 +0100</pubDate>
@@ -188,13 +190,9 @@ A saga is a sequence of transactions that updates each service and publishes a m
       <item>
         <title>Semantic Versioning</title>
         
-          <description>&lt;p&gt;Given a version number MAJOR.MINOR.PATCH, increment the:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;MAJOR version when you make incompatible API changes,&lt;/li&gt;
-  &lt;li&gt;MINOR version when you add functionality in a backwards compatible manner, and&lt;/li&gt;
-  &lt;li&gt;PATCH version when you make backwards compatible bug fixes.
-Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.&lt;/li&gt;
-&lt;/ul&gt;
+          <description>&lt;p&gt;&lt;strong&gt;Semantic versioning&lt;/strong&gt; is a system for versioning software releases that uses a combination of numbers and labels to indicate
+the &lt;strong&gt;level&lt;/strong&gt; of changes in a new &lt;strong&gt;release&lt;/strong&gt;. It is designed to help users understand the potential &lt;strong&gt;impact&lt;/strong&gt; of upgrading to
+a new version of a software product.&lt;/p&gt;
 </description>
         
         <pubDate>Thu, 26 Sep 2019 00:00:00 +0200</pubDate>
@@ -208,7 +206,7 @@ Additional labels for pre-release and build metadata are available as extensions
       <item>
         <title>Risk register</title>
         
-          <description>&lt;p&gt;Risk register is basically a record of identified risks for a project.&lt;/p&gt;
+          <description>&lt;p&gt;A risk register is a tool that is used to document and track risks in a project or business. In the context of software development, a risk register table might include the following information:&lt;/p&gt;
 </description>
         
         <pubDate>Fri, 28 Jun 2019 00:00:00 +0200</pubDate>
@@ -222,10 +220,9 @@ Additional labels for pre-release and build metadata are available as extensions
       <item>
         <title>RAID Log</title>
         
-          <description>&lt;p&gt;RAID analysis is a project planning technique for identifying key project 
-Risks (R), Assumptions (A), Issues (I), and Dependencies (D). 
-Project teams should complete an initial analysis at the beginning 
-of the project and then monitor the issues via a RAID Log.&lt;/p&gt;
+          <description>&lt;p&gt;&lt;strong&gt;RAID&lt;/strong&gt; &lt;strong&gt;(Risks, Assumptions, Issues, and Dependencies)&lt;/strong&gt; logs are tools that are used to document and manage &lt;strong&gt;risks&lt;/strong&gt;, 
+&lt;strong&gt;assumptions&lt;/strong&gt;, &lt;strong&gt;issues&lt;/strong&gt;, and &lt;strong&gt;dependencies&lt;/strong&gt; in a project. They are typically used by project managers and teams to &lt;strong&gt;identify&lt;/strong&gt; 
+and &lt;strong&gt;track&lt;/strong&gt; the various factors that could impact the success of a project, and to develop strategies for addressing those factors.&lt;/p&gt;
 </description>
         
         <pubDate>Thu, 27 Jun 2019 00:00:00 +0200</pubDate>
@@ -272,7 +269,8 @@ Terraform can manage existing and popular service providers as well as custom in
       <item>
         <title>How to split a user story</title>
         
-          <description>&lt;p&gt;&lt;img src=&quot;/images/how-to-split-a-user-story.png&quot; alt=&quot;yep&quot; /&gt;&lt;/p&gt;
+          <description>&lt;p&gt;A user story is a description of a feature or functionality from the perspective of an end user. It is typically used
+in agile software development as a way to describe the desired outcome of a piece of work.&lt;/p&gt;
 </description>
         
         <pubDate>Tue, 17 Jul 2018 00:00:00 +0200</pubDate>
@@ -286,7 +284,9 @@ Terraform can manage existing and popular service providers as well as custom in
       <item>
         <title>Quality Attributes Tactics</title>
         
-          <description>&lt;p&gt;Software architecture tactics are design decisions that improve individual quality attribute concerns.&lt;/p&gt;
+          <description>&lt;p&gt;Quality attributes tactics are strategies and techniques that are used to improve the quality of a software system. 
+Quality attributes refer to the characteristics or features of a system that are important to its users or stakeholders,
+such as performance, reliability, security, and usability.&lt;/p&gt;
 </description>
         
         <pubDate>Sun, 17 Jun 2018 00:00:00 +0200</pubDate>
