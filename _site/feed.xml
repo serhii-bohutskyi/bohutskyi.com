@@ -176,7 +176,9 @@ A saga is a sequence of transactions that updates each service and publishes a m
       <item>
         <title>Availability Tactics</title>
         
-          <description>&lt;p&gt;&lt;strong&gt;Availability tactics&lt;/strong&gt; are strategies and techniques that are used to improve the availability of a system. The goal of availability tactics is to ensure that a system is able to meet the required level of uptime and performance, even in the face of failures or disruptions.&lt;/p&gt;
+          <description>&lt;p&gt;&lt;strong&gt;Availability tactics&lt;/strong&gt; are strategies and techniques that are used to improve the availability of a system. 
+The goal of availability tactics is to ensure that a &lt;strong&gt;system&lt;/strong&gt; is able to &lt;strong&gt;meet&lt;/strong&gt; the required &lt;strong&gt;level&lt;/strong&gt; of &lt;strong&gt;uptime&lt;/strong&gt; and &lt;strong&gt;performance&lt;/strong&gt;, 
+even in the face of failures or disruptions.&lt;/p&gt;
 </description>
         
         <pubDate>Wed, 26 Feb 2020 00:00:00 +0100</pubDate>
