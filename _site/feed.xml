@@ -565,9 +565,8 @@ They are Independent, Negotiable, Valuable, Estimable, Small, and Testable.&lt;/
       <item>
         <title>How combine git commits in one commit</title>
         
-          <description>&lt;p&gt;Suppose you have many commits in branch &lt;em&gt;feature/story_1&lt;/em&gt; and need to
-prepare pull request with one commit to &lt;em&gt;release/dev&lt;/em&gt; branch.
-For that use temporary branch to backup and take changes.&lt;/p&gt;
+          <description>&lt;p&gt;Sometimes you need to squash all commits from your branch and prepare one commit, for example, for the PR. It can be required
+to have one commit, which can be easily reverted in case of any issues, or it is just lovely to have one commit instead of a bunch of small commits.&lt;/p&gt;
 </description>
         
         <pubDate>Tue, 01 Aug 2017 00:00:00 +0200</pubDate>
@@ -583,7 +582,8 @@ For that use temporary branch to backup and take changes.&lt;/p&gt;
         
           <description>&lt;p&gt;If you are working with Java 8 and Intellij IDEA, good practice to use
 Optional for getters, of course depending on logic as well.
-I’ll show how to quick configure IDE for generation such getters&lt;/p&gt;
+I’ll show how to quick configure IDE for generation such getters
+—&lt;/p&gt;
 </description>
         
         <pubDate>Sun, 02 Jul 2017 00:00:00 +0200</pubDate>
@@ -650,7 +650,8 @@ the two-phase commit protocol (2PC), however, 3PC is &lt;strong&gt;non-blocking&
           <description>&lt;p&gt;Data normalization is a process then data attributes within a data model
 are organized  in the columns and tables of a relational database to
 reduce data redundancy, improve data integrity and to increase the
-cohesion of entity types.&lt;/p&gt;
+cohesion of entity types.
+—&lt;/p&gt;
 </description>
         
         <pubDate>Sun, 07 May 2017 00:00:00 +0200</pubDate>
@@ -666,7 +667,8 @@ cohesion of entity types.&lt;/p&gt;
         
           <description>&lt;p&gt;Denormalization is the process for improving the read performance of a
 database, at the expense of losing write performance, by adding redundant
-copies of data or by grouping data.&lt;/p&gt;
+copies of data or by grouping data.
+—&lt;/p&gt;
 </description>
         
         <pubDate>Sun, 07 May 2017 00:00:00 +0200</pubDate>
@@ -895,7 +897,8 @@ Eventual consistency is not meaningful or relevant in centralized (single copy) 
           <description>&lt;p&gt;Inversion of Control is a design pattern means injecting dependencies
 into a component when it is constructed, by that to invert a control of
 dependencies creation goes to outside. It leads to decoupling components
-and layers in the system.&lt;/p&gt;
+and layers in the system.
+—&lt;/p&gt;
 </description>
         
         <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>

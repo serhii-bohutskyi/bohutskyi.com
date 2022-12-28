@@ -3,7 +3,6 @@ title: NoSQL Databases Types
 description: nosql,type,database,key-value,document-based,column-based,graph-based
 ---
 
-
 There are 4 basic types of NoSQL databases:
 
 * Key-Value Store – Every single item in the database is stored as an
@@ -18,5 +17,7 @@ column (HBase, Cassandra)
 
 * Graph-based - Used to store information about networks of data, such as
 social connections. (Neo4J, Giraph)
+---
 
 ![]({{site.baseurl}}/images/nosql_not_only.jpg)
+---

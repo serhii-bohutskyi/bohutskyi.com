@@ -24,5 +24,7 @@ fewest current connections to clients. The relative computing capacity
 of each server is factored into determining which one has the least connections.
 
 * IP Hash – The IP address of the client is used to determine which server receives the request.
+---
 
 ![]({{site.baseurl}}/images/load_balancing.png)
+---

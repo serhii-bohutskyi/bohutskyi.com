@@ -56,3 +56,5 @@ Install certificate to java keystore:
 ```bash
 $JAVA_HOME/jre/bin/keytool -importcert -file certificate.cer -keystore $JAVA_HOME/jre/lib/security/cacerts
 ```
+
+---

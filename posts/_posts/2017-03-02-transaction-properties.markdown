@@ -26,5 +26,7 @@ however, a transaction manager or monitor is designed to realize the ACID concep
 In a distributed system, one way to achieve ACID is to use a two-phase commit (2PC),
 which ensures that all involved sites must commit to transaction completion or none do,
 and the transaction is rolled back.
+---
 
 ![]({{site.baseurl}}/images/acid.png)
+---
