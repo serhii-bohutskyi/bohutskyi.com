@@ -5,7 +5,7 @@ description: architecture,retry,pattern,microservices
 
 To improve the stability of the application by handling failures of integration with other service by retry operation.
 
-### [Retry pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/retry "Retry pattern")
+#### [Retry pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/retry "Retry pattern")
 
 Enable an application to handle transient failures when it tries to connect to a service or network resource, by transparently retrying a failed operation. This can improve the stability of the application.
 

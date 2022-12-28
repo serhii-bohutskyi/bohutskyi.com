@@ -6,7 +6,7 @@ description: git,commit,squash
 Sometimes you need to squash all commits from your branch and prepare one commit, for example, for the PR. It can be required
 to have one commit, which can be easily reverted in case of any issues, or it is just lovely to have one commit instead of a bunch of small commits.
 
-### Template to copy
+#### Template to copy
 
 Input:
 
@@ -25,7 +25,7 @@ git reset --hard {target}
 git merge --squash {custom_branch}_backup
 ```
 
-### Example of usage
+#### Example of usage
 
 Suppose you have many commits in branch *feature/story_1* and must
 prepare a pull request with one commit to the *release/dev* branch.

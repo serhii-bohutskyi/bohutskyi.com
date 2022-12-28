@@ -2,15 +2,30 @@
 title: Automatic failover
 description: failover,recovery,zero downtime
 ---
+Automatic failover is a technique used to ensure the availability and reliability of a system or
+application by automatically switching to a backup or standby system or component in the event of a failure or error.
 
-# Automatic failover
+There are several ways in which automatic failover can be implemented in a software development project:
 
-Automatic failover is the process of automatically moving an application
-to a standby server during a failure or service event to save its uptime.
-Automatic failover is an option means a zero downtime environment.
+#### Redundancy
 
-Today, automatic failover is choosed because little downtime tolerance is needed,
-and there will be some complexity, cost, and risk that goes with that choice.
+Use redundant systems or components that can take over if the primary system or component fails.
+
+#### Load balancing
+
+Use load balancing techniques to distribute workloads across multiple systems or components,
+so that if one system or component fails, the workload can be transferred to another system or component.
+
+#### Monitoring
+
+Use monitoring tools or processes to detect failures or errors and trigger the failover process.
+
+#### Testing
+
+Test the failover process regularly to ensure that it is working correctly and that the backup systems or components are ready to take over if needed.
+
+Automatic failover is an important consideration in software development projects where availability and reliability are critical.
+It can help to prevent downtime and ensure that the system or application continues to function even if there are failures or errors.
 
 ---
 

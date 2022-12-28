@@ -3,7 +3,7 @@ title: GitHub Action tricks
 description: github,action,workflow,tricks
 ---
 
-### Environment variables
+#### Environment variables
 [GitHub Action Documentation](https://docs.github.com/en/actions/learn-github-actions/environment-variables#default-environment-variables)
 
 Sample
@@ -24,7 +24,7 @@ Usage
 ```
 {% endraw %}
 
-### Workflow with manual run
+#### Workflow with manual run
 
 Workflow with manual run and input for branch
 
@@ -41,7 +41,7 @@ on:
 ```
 {% endraw %}
 
-### Concurrency in the workflow
+#### Concurrency in the workflow
 {% raw %}
 ```yaml
 concurrency:
@@ -50,7 +50,7 @@ concurrency:
 ```
 {% endraw %}
 
-### Checkout action
+#### Checkout action
 Checkout GitHub repository with corresponding branch
 {% raw %}
 ```yaml
@@ -60,7 +60,7 @@ Checkout GitHub repository with corresponding branch
 ```
 {% endraw %}
 
-### Java setup action
+#### Java setup action
 {% raw %}
 ```yaml
 - uses: actions/setup-java@v3
@@ -70,7 +70,7 @@ Checkout GitHub repository with corresponding branch
 ```
 {% endraw %}
 
-### Archive action
+#### Archive action
 
 {% raw %}
 ```yaml
@@ -83,7 +83,7 @@ Checkout GitHub repository with corresponding branch
 ```
 {% endraw %}
 
-### Zip action
+#### Zip action
 
 https://github.com/marketplace/actions/easy-zip-files
 
@@ -97,7 +97,7 @@ https://github.com/marketplace/actions/easy-zip-files
 ```
 {% endraw %}
 
-### Bash script in action
+#### Bash script in action
 {% raw %}
 ```yaml
 - name: Run script
@@ -106,7 +106,7 @@ https://github.com/marketplace/actions/easy-zip-files
 ```
 {% endraw %}
 
-### Permission for a script
+#### Permission for a script
 
 In case of usage script in the GitHub Action you might have such error on execution
 ```bash
@@ -118,7 +118,7 @@ To fix this issue need to run this command locally and push changes to the file'
 $ git update-index --chmod=+x ./.github/scripts/my_script.sh
 ```
 
-### Google Java Format Action
+#### Google Java Format Action
 https://github.com/axel-op/googlejavaformat-action
 
 {% raw %}

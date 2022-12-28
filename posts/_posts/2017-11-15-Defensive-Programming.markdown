@@ -11,17 +11,17 @@ and reduce number of bugs and failures.
 To follow Defensive Programming you need to have a kind of coding policy.
 In this article I will add my notes and vision of java defensive programming.
 
-### NullPointerException
+#### NullPointerException
 
 Don't be paranoiac, by usage of a checking for **null** everywhere.
 Just use a rule "Never return a null" in your system and you will not have problems.
 
-### IllegalArgumentException
+#### IllegalArgumentException
 
 If a method is publicly available or receives a input from the outside world,
 enforce some defensive measures like **IllegalArgumentException**.
 
-### Put a known object first
+#### Put a known object first
 
 It’s just never a bad idea to prevent a random **NullPointerException**
 by putting a known object on the left side of an equals().
@@ -34,7 +34,7 @@ if ("literal".equals(variable)) { ... }
 if (variable.equals("literal")) { ... }
 ````
 
-### Always throw on switch default
+#### Always throw on switch default
 
 So many time I saw then somebody has added a new enum item and didn't modify
  switches which handle a logic by those enums.

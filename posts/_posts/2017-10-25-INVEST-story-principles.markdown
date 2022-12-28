@@ -13,28 +13,28 @@ They are Independent, Negotiable, Valuable, Estimable, Small, and Testable.
  *  S - Small
  *  T - Testable
 
-### Independent
+#### Independent
 Stories should be independent, would be good if they are not overlapping.
 
-### Negotiable
+#### Negotiable
 A good story captures the essence, not the details.
 
-### Valuable
+#### Valuable
 
 A story should be valuable to the customer, not for anybody.
 If think of a product like a cake, we want to give the customer the essence of the whole cake,
 and the best way is to slice vertically through the layers.
 
-### Estimable
+#### Estimable
 
 A good story can be estimated. We don't need an exact estimate,
 but just enough to help the customer rank and schedule the story's implementation.
 
-### Small
+#### Small
 
 Smaller stories tend to get more accurate estimates.
 
-### Testable
+#### Testable
 
 "Testability" has always been a characteristic of good requirements.
 Actually writing the tests early helps us know whether this goal is met.

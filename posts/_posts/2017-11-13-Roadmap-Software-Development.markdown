@@ -9,20 +9,20 @@ such as team members, customers, and management.
 
 A roadmap may include a variety of elements, such as:
 
-### Goals and objectives
+#### Goals and objectives
 The high-level goals and objectives of the project, such as increasing revenue, improving customer satisfaction, or launching a new product.
 
-### Priorities
+#### Priorities
 The key priorities of the project, such as new features, performance improvements, or bug fixes.
 
-### Milestones
+#### Milestones
 Key events or achievements that mark progress towards the goals and objectives of the project, such as the completion 
 of a new feature or the launch of a new product.
 
-### Dependencies
+#### Dependencies
 Any dependencies or constraints that may impact the project, such as external factors or the need to coordinate with other teams or projects.
 
-### Timeline
+#### Timeline
 A timeline that shows the planned sequence of events or milestones and the estimated completion dates for each.
 
 A roadmap is a living document that should be regularly reviewed and updated as the project progresses. 

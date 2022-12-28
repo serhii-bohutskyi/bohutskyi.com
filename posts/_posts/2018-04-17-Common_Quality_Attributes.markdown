@@ -13,7 +13,7 @@ Use this table to understand what each of the quality attributes means in terms 
 
 ---
 
-### Availability
+#### Availability
 Availability defines the proportion of time that the system is functional and working.
 It can be measured as a percentage of the total system downtime over a predefined period.
 Availability will be affected by system errors, infrastructure problems, malicious attacks, and system load.
@@ -27,7 +27,7 @@ The key issues for availability are:
 * A network fault can cause the application to be unavailable. Consider how you will handle unreliable network connections; for example, by designing clients with occasionally-connected capabilities.
 * Consider the trust boundaries within your application and ensure that subsystems employ some form of access control or firewall, as well as extensive data validation, to increase resiliency and availability.
 
-### Conceptual Integrity
+#### Conceptual Integrity
 Conceptual integrity defines the consistency and coherence of the overall design.
 This includes the way that components or modules are designed, as well as factors such as coding style and variable naming.
 A coherent system is easier to maintain because you will know what is consistent with the overall design.
@@ -40,7 +40,7 @@ The key issues for conceptual integrity are:
 * Lack of design and coding standards. Consider establishing published guidelines for design and coding standards, and incorporating code reviews into your development process to ensure guidelines are followed.
 * Existing (legacy) system demands can prevent both refactoring and progression toward a new platform or paradigm. Consider how you can create a migration path away from legacy technologies, and how to isolate applications from external dependencies. For example, implement the Gateway design pattern for integration with legacy systems.
 
-### Interoperability
+#### Interoperability
 Interoperability is the ability of a system or different systems to operate successfully by communicating and exchanging information with other external systems written and run by external parties.
 An interoperable system makes it easier to exchange and reuse information internally as well as externally.
 Communication protocols, interfaces, and data formats are the key considerations for interoperability.
@@ -51,7 +51,7 @@ The key issues for interoperability are:
 * Boundary blurring, which allows artifacts from one system to defuse into another. Consider how you can isolate systems by using service interfaces and/or mapping layers. For example, expose services using interfaces based on XML or standard types in order to support interoperability with other systems. Design components to be cohesive and have low coupling in order to maximize flexibility and facilitate replacement and reusability.
 * Lack of adherence to standards. Be aware of the formal and de facto standards for the domain you are working within, and consider using one of them rather than creating something new and proprietary.
 
-### Maintainability
+#### Maintainability
 Maintainability is the ability of the system to undergo changes with a degree of ease.
 These changes could impact components, services, features, and interfaces when adding or changing the application’s functionality in order to fix errors, or to meet new business requirements.
 Maintainability can also affect the time it takes to restore the system to its operational status following a failure or removal from operation for an upgrade.
@@ -65,7 +65,7 @@ An application’s maintainability is often a function of its overall quality at
 * The existing code does not have an automated regression test suite. Invest in test automation as you build the system. This will pay off as a validation of the system’s functionality, and as documentation on what the various parts of the system do and how they work together.
 * Lack of documentation may hinder usage, management, and future upgrades. Ensure that you provide documentation that, at minimum, explains the overall structure of the application.
 
-### Manageability
+#### Manageability
 Manageability defines how easy it is for system administrators to manage the application, usually through sufficient and useful instrumentation exposed for use in monitoring systems and for debugging and performance tuning.
 Design your application to be easy to manage, by exposing sufficient and useful instrumentation for use in monitoring systems and for debugging and performance tuning.
 The key issues for manageability are:
@@ -73,7 +73,7 @@ The key issues for manageability are:
 * Lack of runtime configurability. Consider how you can enable the system behavior to change based on operational environment requirements, such as infrastructure or deployment changes.
 * Lack of troubleshooting tools. Consider including code to create a snapshot of the system’s state to use for troubleshooting, and including custom instrumentation that can be enabled to provide detailed operational and functional reports. Consider logging and auditing information that may be useful for maintenance and debugging, such as request details or module outputs and calls to other systems and services.
 
-### Performance
+#### Performance
 Performance is an indication of the responsiveness of a system to execute specific actions in a given time interval.
 It can be measured in terms of latency or throughput. Latency is the time taken to respond to any event.
 Throughput is the number of events that take place in a given amount of time.
@@ -87,7 +87,7 @@ The key issues for performance are:
 * Increased database server processing, resulting in reduced throughput. Ensure that you choose effective types of transactions, locks, threading, and queuing approaches. Use efficient queries to minimize performance impact, and avoid fetching all of the data when only a portion is displayed. Failure to design for efficient database processing may incur unnecessary load on the database server, failure to meet performance objectives, and costs in excess of budget allocations.
 * Increased network bandwidth consumption, resulting in delayed response times and increased load for client and server systems. Design high performance communication between tiers using the appropriate remote communication mechanism. Try to reduce the number of transitions across boundaries, and minimize the amount of data sent over the network. Batch work to reduce calls over the network.
 
-### Reliability
+#### Reliability
 Reliability is the ability of a system to continue operating in the expected way over time. Reliability is measured as the probability that a system will not fail and that it will perform its intended function for a specified time interval.
 
 The key issues for reliability are:
@@ -95,7 +95,7 @@ The key issues for reliability are:
 * Output is inconsistent. Implement instrumentation, such as events and performance counters, that detects poor performance or failures of requests sent to external systems, and expose information through standard systems such as Event Logs, Trace files, or WMI. Log performance and auditing information about calls made to other systems and services.
 * The system fails due to unavailability of other externalities such as systems, networks, and databases. Identify ways to handle unreliable external systems, failed communications, and failed transactions. Consider how you can take the system offline but still queue pending requests. Implement store and forward or cached message-based communication systems that allow requests to be stored when the target system is unavailable, and replayed when it is online. Consider using Windows Message Queuing or BizTalk Server to provide a reliable once-only delivery mechanism for asynchronous requests.
 
-### Reusability
+#### Reusability
 Reusability is the probability that a component will be used in other components or scenarios to add new functionality with little or no change.
 Reusability minimizes the duplication of components and the implementation time.
 Identifying the common attributes between various components is the first step in building small reusable components for use in a larger system.
@@ -105,7 +105,7 @@ The key issues for reusability are:
 * The use of multiple similar methods to implement tasks that have only slight variation. Instead, use parameters to vary the behavior of a single method.
 * Using several systems to implement the same feature or function instead of sharing or reusing functionality in another system, across multiple systems, or across different subsystems within an application. Consider exposing functionality from components, layers, and subsystems through service interfaces that other layers and systems can use. Use platform agnostic data types and structures that can be accessed and understood on different platforms.
 
-### Scalability
+#### Scalability
 Scalability is ability of a system to either handle increases in load without impact on the performance of the system, or the ability to be readily enlarged. There are two methods for improving scalability: scaling vertically (scale up), and scaling horizontally (scale out). To scale vertically, you add more resources such as CPU, memory, and disk to a single system. To scale horizontally, you add more machines to a farm that runs the application and shares the load.
 
 The key issues for scalability are:
@@ -113,7 +113,7 @@ The key issues for scalability are:
 * Users incur delays in response and longer completion times. Consider how you will handle spikes in traffic and load. Consider implementing code that uses additional or alternative systems when it detects a predefined service load or a number of pending requests to an existing system.
 * The system cannot queue excess work and process it during periods of reduced load. Implement store-and-forward or cached message-based communication systems that allow requests to be stored when the target system is unavailable, and replayed when it is online.
 
-### Security
+#### Security
 Security is the capability of a system to reduce the chance of malicious or accidental actions outside of the designed usage affecting the system, and prevent disclosure or loss of information. Improving security can also increase the reliability of the system by reducing the chances of an attack succeeding and impairing system operation. Securing a system should protect assets and prevent unauthorized access to or modification of information. The factors affecting system security are confidentiality, integrity, and availability. The features used to secure systems are authentication, encryption, auditing, and logging.
 The key issues for security are:
 * Spoofing of user identity. Use authentication and authorization to prevent spoofing of user identity. Identify trust boundaries, and authenticate and authorize users crossing a trust boundary.
@@ -123,7 +123,7 @@ The key issues for security are:
 * Information disclosure and loss of sensitive data. Design all aspects of the application to prevent access to or exposure of sensitive system and application information.
 * Interruption of service due to Denial of service (DoS) attacks. Consider reducing session timeouts and implementing code or hardware to detect and mitigate such attacks.
 
-### Supportability
+#### Supportability
 Supportability is the ability of the system to provide information helpful for identifying and resolving issues when it fails to work correctly.
 
 The key issues for supportability are:
@@ -132,7 +132,7 @@ The key issues for supportability are:
 * Lack of tracing ability. Use common components to provide tracing support in code, perhaps though Aspect Oriented Programming (AOP) techniques or dependency injection. Enable tracing in Web applications in order to troubleshoot errors.
 * Lack of health monitoring. Consider creating a health model that defines the significant state changes that can affect application performance, and use this model to specify management instrumentation requirements. Implement instrumentation, such as events and performance counters, that detects state changes, and expose these changes through standard systems such as Event Logs, Trace files, or Windows Management Instrumentation (WMI). Capture and report sufficient information about errors and state changes in order to enable accurate monitoring, debugging, and management. Also, consider creating management packs that administrators can use in their monitoring environments to manage the application.
 
-### Testability
+#### Testability
 Testability is a measure of how well system or components allow you to create test criteria and execute tests to determine if the criteria are met. Testability allows faults in a system to be isolated in a timely and effective manner.
 
 The key issues for testability are:
@@ -141,7 +141,7 @@ The key issues for testability are:
 * Poor test coverage, for both manual and automated tests. Consider how you can automate user interaction tests, and how you can maximize test and code coverage.
 * Input and output inconsistencies; for the same input, the output is not the same and the output does not fully cover the output domain even when all known variations of input are provided. Consider how to make it easy to specify and understand system inputs and outputs to facilitate the construction of test cases.
 
-### User Experience / Usability
+#### User Experience / Usability
 The application interfaces must be designed with the user and consumer in mind so that they are intuitive to use, can be localized and globalized, provide access for disabled users, and provide a good overall user experience.
 
 The key issues for user experience and usability are:

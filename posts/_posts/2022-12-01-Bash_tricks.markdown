@@ -5,7 +5,7 @@ description: bash,tricks,development
 
 Bash tricks or just code snippets for quick reusage.
 
-### Arguments
+#### Arguments
 
 Passing argument in the bash script
 
@@ -31,7 +31,7 @@ Usage:
 $ ./my_script.sh -p my_project -r my_report -w /home/workspace -d true
 ```
 
-### Checking boolean argument
+#### Checking boolean argument
 
 Function for the usage in if block
 
@@ -53,7 +53,7 @@ if isTrue "$debug"; then
 fi
 ```
 
-### Loop through files
+#### Loop through files
 
 ```bash
 for file in /path_to_the_folder/*; do
@@ -63,7 +63,7 @@ for file in /path_to_the_folder/*; do
 done
 ```
 
-### Check the file is a file
+#### Check the file is a file
 
 ```bash
 if test -f "$file_path"; then
@@ -71,7 +71,7 @@ if test -f "$file_path"; then
 fi
 ```
 
-### Check the file is a directory
+#### Check the file is a directory
 
 ```bash
 if test -d "$file_path"; then
@@ -79,7 +79,7 @@ if test -d "$file_path"; then
 fi
 ```
 
-### Get the folder name from a file path
+#### Get the folder name from a file path
 
 ```bash
 file_path="/some/path/to/the/folder"
@@ -87,7 +87,7 @@ file_path="/some/path/to/the/folder"
 folder_name="${file_path##*/}"
 ```
 
-### Create folder or folders
+#### Create folder or folders
 ```bash
 mkdir /path/to/folder
 ```

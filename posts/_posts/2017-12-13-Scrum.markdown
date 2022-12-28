@@ -11,58 +11,58 @@ and interaction between them.
 ## Characteristics
 Scrum employs an iterative, incremental approach to optimize predictability and control risk.
 
-### Transparent
+#### Transparent
 Scrum users should be on the same page.
 
-### Iterative
+#### Iterative
 Each of iteration must provide a working slice of the product.
 
-### Adaptive
+#### Adaptive
 Adjustments must be made as soon as possible to minimize further deviation.
 
 ## The Scrum Team
 The Scrum Team consists of a Product Owner (PO), the Development Team, and a Scrum Master (SM).
 
 
-### Product Owner (PO)
+#### Product Owner (PO)
 The Scrum product owner is typically a project's key stakeholder.
 Part of the product owner responsibilities is to have a vision of what he/she wishes to build,
  and convey that vision to the scrum team.
 
-### Development Team
+#### Development Team
 The Development Team creates and provide the Increment of the product.
 Recommended size of the Development Team is not bigger then 9 people, because
 it would be hard to organize and coordinate a work.
 
-### Scrum Master (SM)
+#### Scrum Master (SM)
 The Scrum Master is responsible for following Scrum and ensuring that all members of the Scrum Team
 understand process and flows.
 
 ## Scrum Events
-### The Sprint
+#### The Sprint
 Sprint is a time-box of one month or less, mostly 2-3 weeks. As a result of the Sprint
 should be useable and potentially releasable Increment of a product. After end of one
 Sprint next Sprint is started immediately.
 
-### Sprint Planning
+#### Sprint Planning
 At Sprint Planning entire Scrum Team is planning work for the Sprint. It is time-box
 event to a maximum of two-four hours for one two weeks Sprint. On the Planning
 Team decides what can be delivered in upcoming Iteration and how to deliver this work.
 
-### Daily Scrum
+#### Daily Scrum
 The Daily Scrum is a 15-minute time-boxed event every working day for the Development Team.
 In this event team members must avoid technical details and avoid discussions.
 The daily scrum meeting is not used as a problem-solving or issue resolution meeting.
 By focusing on what each person accomplished yesterday and will accomplish today,
 the team gains an excellent understanding of what work has been done and what work remains.
 
-### Sprint Review
+#### Sprint Review
 During Sprint Review, the Scrum Team and stakeholders collaborate about
 what was done in the Spring, and what would be in Iteration.
 During this meeting, the Scrum team shows what they accomplished during the sprint.
 Typically this takes the form of a demo of the new features.
 
-### Sprint Retrospective
+#### Sprint Retrospective
 The Spring Retrospective is a meeting there Scrum Team looks for ways
 how current process can be improved.
 Using this approach each team member is asked to identify specific things that the team should:
@@ -76,18 +76,18 @@ for inspection and adaptation. Artifacts defined by Scrum are specifically
 designed to maximize transparency of key information so that everybody has
 the same understanding of the artifact.
 
-### Product Backlog
+#### Product Backlog
 The Product Backlog is an ordered list of everything that is known to be needed in the product.
 It is the single source of requirements for any changes to be made to the product.
 The Product Owner is responsible for the Product Backlog, including its content, availability, and ordering.
 
-### Sprint Backlog
+#### Sprint Backlog
 The Sprint Backlog is the set of Product Backlog items selected for the Sprint.
 It is a plan for delivering the product Iteration and realizing the Scrum Goal.
 Sprint Backlog belongs solely to the Development Team and only Team can change it during the Sprint.
 Spring Backlog is a high-visible and real-time picture of the Team work.
 
-### Increment
+#### Increment
 The Increment is the sum of all the Product Backlog items completed during
 a Sprint and the value of the increments of all previous Sprints. All items must meet the
 Scrum Team's "Definition of Done".

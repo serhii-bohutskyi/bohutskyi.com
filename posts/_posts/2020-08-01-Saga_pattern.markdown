@@ -6,7 +6,7 @@ description: architecture,saga,pattern,microservices
 Saga is a pattern to maintain data consistency in distributed systems.
 A saga is a sequence of transactions that updates each service and publishes a message or event to trigger the next transaction step. 
 
-### [Saga distributed transactions pattern](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/saga/saga "Saga distributed transactions pattern")
+#### [Saga distributed transactions pattern](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/saga/saga "Saga distributed transactions pattern")
 The Saga design pattern is a way to manage data consistency across microservices in distributed transaction scenarios. A saga is a sequence of transactions that updates each service and publishes a message or event to trigger the next transaction step. If a step fails, the saga executes compensating transactions that counteract the preceding transactions.
 
 A transaction is a single unit of logic or work, sometimes made up of multiple operations. Within a transaction, an event is a state change that occurs to an entity, and a command encapsulates all information needed to perform an action or trigger a later event.

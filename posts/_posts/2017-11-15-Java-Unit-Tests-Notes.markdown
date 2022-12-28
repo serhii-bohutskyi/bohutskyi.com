@@ -5,7 +5,7 @@ description: unit,
 
 # Mockito
 
-### Mock a static method in a class
+#### Mock a static method in a class
 
 ````java
 PowerMockito.mockStatic(StaticFactory.class);
@@ -13,7 +13,7 @@ PowerMockito.mockStatic(StaticFactory.class);
 PowerMockito.when(StaticFactory.create("Client")).thenReturn(client);
 ````
 
-### Mock a final class
+#### Mock a final class
 In case you need a test with a mocked final class use annotations:
 
 ````java

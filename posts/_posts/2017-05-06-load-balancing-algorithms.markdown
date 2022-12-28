@@ -15,23 +15,23 @@ minimize response time, and avoid overload of any single resource.
 
 ## Load Balancing Algorithms
 
-### Round-robin
+#### Round-robin
 This algorithm distributes incoming requests evenly across a set of servers or resources in a rotating fashion. 
 Each server or resource receives a request in turn, until all servers or resources have been used, at which point the process starts over.
 
-### Least connections
+#### Least connections
 This algorithm assigns incoming requests to the server or resource with the fewest active connections.
 It is often used to prevent overloading of servers or resources and to ensure that all servers or resources are used efficiently.
 
-### Weighted round-robin
+#### Weighted round-robin
 This algorithm is similar to the round-robin algorithm, but it allows servers or resources to be assigned different weights or priorities. 
 Higher-weighted servers or resources receive a greater proportion of incoming requests.
 
-### Least response time
+#### Least response time
 This algorithm assigns incoming requests to the server or resource with the lowest average response time. It is often 
 used to prioritize the allocation of requests to faster or more efficient servers or resources.
 
-### IP hash 
+#### IP hash 
 This algorithm assigns incoming requests to servers or resources based on the hash value of the client's IP address. 
 It is often used to ensure that requests from the same client are consistently routed to the same server or resource.
 
