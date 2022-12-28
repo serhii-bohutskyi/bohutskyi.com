@@ -70,7 +70,13 @@ dependencies that could impact the project, and to develop strategies for addres
 to communicate the status of the project to stakeholders and to ensure that all relevant parties are aware of the risks, 
 assumptions, issues, and dependencies that are being managed.
 
+---
+
 ![RAID]({{site.baseurl}}/images/raid_analysis_template.png)
+
+---
 
 https://www.groupmap.com/map-templates/raid-log/
 https://expertprogrammanagement.com/2010/10/raid-risks-assumptions-issues-and-dependencies/
+
+---

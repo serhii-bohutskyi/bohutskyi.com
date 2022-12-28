@@ -17,6 +17,12 @@ It is important to carefully consider the appropriate IPC mechanism for a micros
 
 Articles:
 
+---
+
 * [Inter-Process Communication in a Microservices Architecture](https://dzone.com/articles/building-microservices-inter-process-communication-2)
 
+---
+
 * [Chapter 3. Interprocess communication in a microservice architecture](https://livebook.manning.com/book/microservices-patterns/chapter-3/1)
+
+---

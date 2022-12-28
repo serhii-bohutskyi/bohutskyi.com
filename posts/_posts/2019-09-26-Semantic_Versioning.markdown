@@ -18,4 +18,8 @@ In addition to the above numbers, semantic versioning also allows for the use of
 to indicate the stability of a release. For example, a version number of **2.0.0-beta** would indicate that the release is
 a beta version of the **2.0.0** release.
 
+---
+
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html "Semantic Versioning")
+
+---

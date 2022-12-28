@@ -120,6 +120,7 @@ vary based on team members being on vacation, ill, etc. The team should consider
 capacity in determining how many product backlog items to plan for a sprint.
 Capacity is based on the team's expected or projected future availability.
 
+---
 
 
 

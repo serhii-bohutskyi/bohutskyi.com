@@ -14,6 +14,8 @@ When choosing a NoSQL system, it is important to understand whether a choice of 
 If the database system only supports eventual consistency, then the application will need to handle the possibility of reading stale (inconsistent) data.
 This is not as easy as it sounds since the responsibility of avoiding the “stale read” problem associated with eventual consistency is left to the application developer.
 
+
 ---
+
 
 ![]({{ site.baseurl}}/images/eventual-consistency.png)

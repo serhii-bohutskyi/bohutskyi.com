@@ -29,4 +29,8 @@ description: agile,manifesto,principles,agility,manifest,customer,delivery
 
 
 
+---
+
 ![Agile Manifesto Principles]({{site.baseurl}}/images/12_agile_manifesto.png)
+
+---

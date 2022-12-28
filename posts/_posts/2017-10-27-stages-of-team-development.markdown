@@ -43,3 +43,5 @@ because members have grown close and feel a loss now that the experience is over
 
 ![Stages of team development]({{site.baseurl}}/images/four-stages-of-development.png)
 
+
+---

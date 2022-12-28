@@ -39,8 +39,15 @@ Smaller stories tend to get more accurate estimates.
 "Testability" has always been a characteristic of good requirements.
 Actually writing the tests early helps us know whether this goal is met.
 
+The **INVEST** criteria are often used to help teams **prioritize** user stories and ensure that they are **well-formed** and ready
+for development. By evaluating user stories against these criteria, teams can ensure that they are **working** on the most 
+valuable and achievable **pieces** of work and can **deliver** value to the end user in a **timely** and efficient manner.
+
 # How to split
 ![]({{site.baseurl}}/images/how-to-split-a-user-story.png)
+
+---
+
 
 
 

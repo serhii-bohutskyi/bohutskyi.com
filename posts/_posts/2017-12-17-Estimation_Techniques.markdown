@@ -97,7 +97,11 @@ Cons:
 * Roughly estimates
 * Relative results
 
+---
+
 ![The Bucket System]({{site.baseurl}}/images/The-Bucket-System.png)
+
+---
 
 
 

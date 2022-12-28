@@ -73,4 +73,9 @@ Speaking of ephemerality and data: [Persistent volumes](https://kubernetes.io/do
 the lifetime of any particular container or application, whereas general volumes deal with compute. This becomes
 particularly important when you’re discussing stateful applications like databases.
 
+---
+
 [Kubernetes Documentation](https://kubernetes.io/docs/home/)
+
+---
+

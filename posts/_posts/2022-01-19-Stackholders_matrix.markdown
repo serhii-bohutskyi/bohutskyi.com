@@ -36,3 +36,5 @@ In this example, the stakeholders matrix table includes six stakeholders and fiv
 5. Impact: The impact that the stakeholder's involvement or non-involvement could have on the project or business.
    
 This table could be used to help project managers or business leaders understand the needs and expectations of each stakeholder group and to ensure that their concerns are addressed in the planning and execution of a project or business.
+
+---

@@ -12,3 +12,5 @@ To fix this issue need to run this command locally and push changes to the file'
 ```bash
 $ git update-index --chmod=+x ./.github/scripts/my_script.sh
 ```
+
+---

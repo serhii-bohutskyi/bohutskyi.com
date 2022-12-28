@@ -20,4 +20,9 @@ FURPS is a placeholder for nonfunctional requirements.
 
 NFRs can be in any layer of an application.
 
+---
+
 ![]({{site.baseurl}}/images/Types_Non_functional_requirements.jpg)
+
+---
+

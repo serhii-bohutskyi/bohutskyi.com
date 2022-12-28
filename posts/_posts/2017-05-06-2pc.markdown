@@ -19,11 +19,13 @@ will have to wait for its recovery. This is undesirable as these sites
 may be holding locks on the resources. In the event of message loss,
 the two-phase protocol will result in the sending of more messages.
 
+
 ---
 
 ![]({{site.baseurl}}/images/2pc2.gif)
 
 ---
+
 
 The two-phase commit protocol consists of the following steps:
 

@@ -17,7 +17,11 @@ column (HBase, Cassandra)
 
 * Graph-based - Used to store information about networks of data, such as
 social connections. (Neo4J, Giraph)
+
+
 ---
 
 ![]({{site.baseurl}}/images/nosql_not_only.jpg)
+
 ---
+

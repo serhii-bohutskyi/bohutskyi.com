@@ -26,4 +26,9 @@ Table template
 
 | RISK | IMPACT | MITIGATION | STATUS | OWNER |
 
+---
+
 ![RAID]({{site.baseurl}}/images/risk_register_example.png)
+
+---
+

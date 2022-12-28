@@ -33,9 +33,21 @@ How to calculate **availability**:
 The term **high availability** typically refers to designs targeting availability of **99.999%** (“5
 nines”) or greater. 
 
+---
+
 ![System Availability Requirements]({{site.baseurl}}/images/availability_table.png)
 
+---
+
 ### All availability tactics
+
+---
+
 ![Availability Tactics Diagram]({{site.baseurl}}/images/Availability__Tactics.png)
 
+---
+
 [Realizing and Refining Architectural Tactics: Availability](https://resources.sei.cmu.edu/asset_files/TechnicalReport/2009_005_001_15101.pdf "Realizing and Refining Architectural Tactics: Availability")
+
+---
+

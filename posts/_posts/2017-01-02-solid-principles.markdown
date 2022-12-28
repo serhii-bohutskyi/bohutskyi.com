@@ -38,10 +38,14 @@ A class should be **open** for extension, but closed for modification.
 ## Liskov substitution principle (L.S.P)
 
 Subtypes must be substitutable for their base types.
+
+
 ---
 
 ![]({{site.baseurl}}/images/LiskovSubtitutionPrinciple.jpg)
+
 ---
+
 
 In mathematics, a Square is a Rectangle. Indeed it is a specialization
 of a rectangle. The "is a" makes you want to model this with inheritance.
@@ -65,4 +69,6 @@ Split interface to much smaller regarding S.R.P. to avoid this problem.
 High level modules should NOT depend on low level modules, both should
 depend on abstractions. Abstractions should NOT depend on details. Details
 should depend upon abstractions.
+
 ---
+

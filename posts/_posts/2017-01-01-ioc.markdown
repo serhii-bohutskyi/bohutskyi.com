@@ -7,6 +7,7 @@ Inversion of Control is a design pattern means injecting dependencies
 into a component when it is constructed, by that to invert a control of
 dependencies creation goes to outside. It leads to decoupling components
 and layers in the system.
+
 ---
 
 ![]({{site.baseurl}}/images/ioc.jpg)

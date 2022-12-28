@@ -11,4 +11,8 @@ For example, consider a system with three microservices: A, B, and C. If microse
 
 The bulkhead pattern is often used in conjunction with other patterns, such as the circuit breaker pattern, to further improve the resilience and fault tolerance of a system.
 
+---
+
 [Bulkhead pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/bulkhead "Bulkhead pattern")
+
+---

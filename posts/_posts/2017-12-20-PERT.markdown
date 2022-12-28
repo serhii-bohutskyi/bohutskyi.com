@@ -19,6 +19,10 @@ Estimate the 3 kinds of time for each activity:
 
 Use the formula below to calculate the time for each project stage:
 
+---
+
 ![PERT Formula]({{site.baseurl}}/images/pert_formula.png)
+
+---
 
 

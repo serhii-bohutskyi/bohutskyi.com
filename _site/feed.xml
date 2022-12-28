@@ -393,7 +393,7 @@ teams utilizing the appropriate practices for their context.&lt;/p&gt;
       <item>
         <title>Agile Manifesto</title>
         
-          <description>&lt;p&gt;&lt;img src=&quot;/images/what-is-agile-software-dev-model.png&quot; alt=&quot;what-is-agile-software-dev-model&quot; /&gt;&lt;/p&gt;
+          <description>&lt;hr /&gt;
 </description>
         
         <pubDate>Fri, 15 Dec 2017 00:00:00 +0100</pubDate>
@@ -480,7 +480,9 @@ and interaction between them.&lt;/p&gt;
       <item>
         <title>Roadmap Software Development</title>
         
-          <description>&lt;h2 id=&quot;roadmap-software-development&quot;&gt;Roadmap Software Development&lt;/h2&gt;
+          <description>&lt;p&gt;A &lt;strong&gt;roadmap&lt;/strong&gt; in software development is a high-level plan that outlines the goals, priorities, and key milestones for a project.
+It is a way to visualize the overall direction of the project and to communicate that direction to stakeholders, 
+such as team members, customers, and management.&lt;/p&gt;
 </description>
         
         <pubDate>Mon, 13 Nov 2017 00:00:00 +0100</pubDate>
@@ -494,7 +496,7 @@ and interaction between them.&lt;/p&gt;
       <item>
         <title>Story splitting cheat sheet</title>
         
-          <description>&lt;p&gt;&lt;img src=&quot;/images/story-splitting-cheat-sheet.png&quot; alt=&quot;Story splitting cheat sheet&quot; /&gt;&lt;/p&gt;
+          <description>&lt;hr /&gt;
 </description>
         
         <pubDate>Fri, 27 Oct 2017 00:00:00 +0200</pubDate>
@@ -582,8 +584,7 @@ to have one commit, which can be easily reverted in case of any issues, or it is
         
           <description>&lt;p&gt;If you are working with Java 8 and Intellij IDEA, good practice to use
 Optional for getters, of course depending on logic as well.
-I’ll show how to quick configure IDE for generation such getters
-—&lt;/p&gt;
+I’ll show how to quick configure IDE for generation such getters&lt;/p&gt;
 </description>
         
         <pubDate>Sun, 02 Jul 2017 00:00:00 +0200</pubDate>
@@ -650,8 +651,7 @@ the two-phase commit protocol (2PC), however, 3PC is &lt;strong&gt;non-blocking&
           <description>&lt;p&gt;Data normalization is a process then data attributes within a data model
 are organized  in the columns and tables of a relational database to
 reduce data redundancy, improve data integrity and to increase the
-cohesion of entity types.
-—&lt;/p&gt;
+cohesion of entity types.&lt;/p&gt;
 </description>
         
         <pubDate>Sun, 07 May 2017 00:00:00 +0200</pubDate>
@@ -667,8 +667,7 @@ cohesion of entity types.
         
           <description>&lt;p&gt;Denormalization is the process for improving the read performance of a
 database, at the expense of losing write performance, by adding redundant
-copies of data or by grouping data.
-—&lt;/p&gt;
+copies of data or by grouping data.&lt;/p&gt;
 </description>
         
         <pubDate>Sun, 07 May 2017 00:00:00 +0200</pubDate>
@@ -684,11 +683,7 @@ copies of data or by grouping data.
         
           <description>&lt;p&gt;Load balancers distribute traffic among multiple backend servers.
 If one of those servers goes down, a load balancer will redirect traffic
-to the others, assuring that your services continue to be available.
-A load balancer also allows you to add additional resources to handle a
-temporary traffic spike or a more consistent increase in demand.
-Load balancing aims to optimize resource use, maximize throughput,
-minimize response time, and avoid overload of any single resource.&lt;/p&gt;
+to the others, assuring that your services continue to be available.&lt;/p&gt;
 </description>
         
         <pubDate>Sat, 06 May 2017 00:00:00 +0200</pubDate>
@@ -897,8 +892,7 @@ Eventual consistency is not meaningful or relevant in centralized (single copy) 
           <description>&lt;p&gt;Inversion of Control is a design pattern means injecting dependencies
 into a component when it is constructed, by that to invert a control of
 dependencies creation goes to outside. It leads to decoupling components
-and layers in the system.
-—&lt;/p&gt;
+and layers in the system.&lt;/p&gt;
 </description>
         
         <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>

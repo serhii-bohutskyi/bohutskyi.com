@@ -25,9 +25,29 @@ consistently over time. This can include techniques such as implementing robust 
 his can include techniques such as conducting usability testing, simplifying navigation and user flows, and using 
 clear and concise language in user interfaces.
 
+---
+
 ![Work]({{site.baseurl}}/images/tactic_work.png)
+
+---
+
 ![Performance]({{site.baseurl}}/images/performace_tactics.png)
+
+---
+
 ![Availability]({{site.baseurl}}/images/availability_tactics.png)
+
+---
+
 ![Security]({{site.baseurl}}/images/security_tactics.png)
+
+---
+
 ![Usability]({{site.baseurl}}/images/usability_tactics.png)
+
+---
+
 ![Interoperability]({{site.baseurl}}/images/interoperability_tactics.png)
+
+---
+

@@ -12,5 +12,8 @@ Automatic failover is an option means a zero downtime environment.
 Today, automatic failover is choosed because little downtime tolerance is needed,
 and there will be some complexity, cost, and risk that goes with that choice.
 
+---
+
 ![Architecture Roadmap sample]({{site.baseurl}}/images/failover-sample.png)
 
+---

@@ -271,3 +271,6 @@ those “what-if” situations, you will be able to react quickly.
 
 ##### Work Breakdown Structure (WBS)
 A hierarchical tree structure that breaks down a project into smaller deliverables.
+
+
+---

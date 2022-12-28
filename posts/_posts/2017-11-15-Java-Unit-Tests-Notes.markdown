@@ -25,5 +25,8 @@ import org.powermock.core.classloader.annotations.PrepareForTest;
 @PrepareForTest(FinalClass.class)
 ````
 
+---
+
+
 
 

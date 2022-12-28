@@ -7,7 +7,11 @@ The following table describes the quality attributes covered.
 It categorizes the attributes in four specific areas linked to design, runtime, system, and user qualities.
 Use this table to understand what each of the quality attributes means in terms of your application design.
 
+---
+
 ![]({{site.baseurl}}/images/common_quality_attributes.png)
+
+---
 
 ### Availability
 Availability defines the proportion of time that the system is functional and working.
@@ -147,7 +151,8 @@ The key issues for user experience and usability are:
 * Feedback to the user is poor, especially for errors and exceptions, and the application is unresponsive. Consider implementing technologies and techniques that provide maximum user interactivity, such as Asynchronous JavaScript and XML (AJAX) in Web pages and client-side input validation. Use asynchronous techniques for background tasks, and tasks such as populating controls or performing long-running tasks.
 
 
-
-
+---
 
 Source: https://msdn.microsoft.com/en-us/library/ee658094.aspx
+
+---

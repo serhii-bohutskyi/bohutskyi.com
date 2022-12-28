@@ -47,4 +47,8 @@ There are several ways to split a user story into smaller, more manageable piece
 It is important to note that the specific approach to splitting a user story will depend on the specific needs and context of the project.
 The goal is to break the story down into smaller, more manageable pieces of work that can be delivered incrementally.
 
+---
+
 ![yep]({{site.baseurl}}/images/how-to-split-a-user-story.png)
+
+---

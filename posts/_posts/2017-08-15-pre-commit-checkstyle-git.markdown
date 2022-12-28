@@ -31,3 +31,6 @@ Do not forget to update paths to jar and checkstyle file which you are copied
 and save config file.
 
 That's it. Nothing need to be reloaded...
+
+---
+
