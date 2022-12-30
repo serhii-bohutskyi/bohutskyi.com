@@ -24,6 +24,22 @@ The principle is named after the Greek goddess Demeter, who was the goddess of a
     
       
       <item>
+        <title>Cache strategies</title>
+        
+          <description>&lt;p&gt;Cache strategies are techniques used to store and retrieve data from a cache, which is a temporary storage area that 
+is used to store frequently accessed data in order to improve the performance of a system. There are several different 
+cache strategies that can be used, depending on the specific requirements of the system.&lt;/p&gt;
+</description>
+        
+        <pubDate>Fri, 30 Dec 2022 00:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/Cache_strategies.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Cache_strategies.html</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>GitHub Action tricks</title>
         
           <description>&lt;h4 id=&quot;environment-variables&quot;&gt;Environment variables&lt;/h4&gt;
