@@ -8,9 +8,25 @@
     
       
       <item>
+        <title>The Law of Demeter</title>
+        
+          <description>&lt;p&gt;&lt;strong&gt;The Law of Demeter (LoD)&lt;/strong&gt; is a software engineering principle that states that an object should only communicate with its
+immediate neighbors and should not have knowledge of the inner workings of other objects. 
+The principle is named after the Greek goddess Demeter, who was the goddess of agriculture and fertility.&lt;/p&gt;
+</description>
+        
+        <pubDate>Fri, 30 Dec 2022 00:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/Law_of_Demeter.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Law_of_Demeter.html</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>GitHub Action tricks</title>
         
-          <description>&lt;h3 id=&quot;environment-variables&quot;&gt;Environment variables&lt;/h3&gt;
+          <description>&lt;h4 id=&quot;environment-variables&quot;&gt;Environment variables&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&quot;https://docs.github.com/en/actions/learn-github-actions/environment-variables#default-environment-variables&quot;&gt;GitHub Action Documentation&lt;/a&gt;&lt;/p&gt;
 </description>
         
@@ -163,7 +179,7 @@ A saga is a sequence of transactions that updates each service and publishes a m
         
           <description>&lt;h2 id=&quot;kubernetes-glossary-for-executives&quot;&gt;KUBERNETES GLOSSARY FOR EXECUTIVES&lt;/h2&gt;
 
-&lt;h3 id=&quot;cluster&quot;&gt;Cluster&lt;/h3&gt;
+&lt;h4 id=&quot;cluster&quot;&gt;Cluster&lt;/h4&gt;
 </description>
         
         <pubDate>Tue, 02 Jun 2020 00:00:00 +0200</pubDate>
@@ -466,7 +482,8 @@ and interaction between them.&lt;/p&gt;
       <item>
         <title>Automatic failover</title>
         
-          <description>&lt;h1 id=&quot;automatic-failover&quot;&gt;Automatic failover&lt;/h1&gt;
+          <description>&lt;p&gt;Automatic failover is a technique used to ensure the availability and reliability of a system or
+application by automatically switching to a backup or standby system or component in the event of a failure or error.&lt;/p&gt;
 </description>
         
         <pubDate>Tue, 14 Nov 2017 00:00:00 +0100</pubDate>
