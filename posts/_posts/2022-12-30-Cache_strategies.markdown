@@ -6,23 +6,23 @@ Cache strategies are techniques used to store and retrieve data from a cache, wh
 is used to store frequently accessed data in order to improve the performance of a system. There are several different 
 cache strategies that can be used, depending on the specific requirements of the system. 
 
-### 1. First-in, first-out (FIFO)
-In this strategy, the oldest data is removed from the cache when it becomes full and new data is added.
+#### 1. First-in, first-out (FIFO)
+The oldest data is removed from the cache when it becomes full and new data is added.
 
-### 2. Last-in, first-out (LIFO)
-In this strategy, the newest data is removed from the cache when it becomes full and new data is added.
+#### 2. Last-in, first-out (LIFO)
+The newest data is removed from the cache when it becomes full and new data is added.
 
-### 3. Least recently used (LRU)
-In this strategy, the data that has been accessed the least recently is removed from the cache when it becomes full and new data is added.
+#### 3. Least recently used (LRU)
+The data that has been accessed the least recently is removed from the cache when it becomes full and new data is added.
 
-### 4. Most recently used (MRU)
-In this strategy, the data that has been accessed the most recently is removed from the cache when it becomes full and new data is added.
+#### 4. Most recently used (MRU)
+The data that has been accessed the most recently is removed from the cache when it becomes full and new data is added.
 
-### 5. Least frequently used (LFU)
-In this strategy, the data that is accessed the least frequently is removed from the cache when it becomes full and new data is added.
+#### 5. Least frequently used (LFU)
+The data that is accessed the least frequently is removed from the cache when it becomes full and new data is added.
 
-### 6. Most frequently used (MFU)
-In this strategy, the data that is accessed the most frequently is removed from the cache when it becomes full and new data is added.
+#### 6. Most frequently used (MFU)
+The data that is accessed the most frequently is removed from the cache when it becomes full and new data is added.
 
 The choice of cache strategy will depend on the specific requirements and characteristics of the system and the data being cached. 
 It is important to carefully evaluate the trade-offs between different cache strategies and choose the one that best meets the needs of the system.
