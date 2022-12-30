@@ -21,15 +21,15 @@ By following this principle, developers can create code that is more modular and
 
 There are several benefits to following the Law of Demeter in software development, including:
 
-### Improved maintainability
+##### Improved maintainability
 Code that follows the Law of Demeter is typically easier to understand and maintain because it is more modular and cohesive.
 
-### Reduced complexity 
+##### Reduced complexity 
 By limiting the number of dependencies and the amount of knowledge that an object has about other objects, 
 developers can reduce the complexity of their code.
 
-### Improved scalability
+##### Improved scalability
 Code that follows the Law of Demeter is typically easier to scale because it is more modular and has fewer dependencies.
 
-### Improved testability
+##### Improved testability
 Code that follows the Law of Demeter is typically easier to test because it is more modular and has fewer dependencies.
