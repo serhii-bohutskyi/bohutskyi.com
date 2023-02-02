@@ -5,7 +5,7 @@ description: software,engineering,object-oriented,programming,dependency,spring,
 
 In this post I will be adding usefull things related to the Spring Initializr.
 
-#### [Spring Initializr](https://start.spring.io)
+#### [Spring Initializr](https://start.spring.io){:target="_blank"}
 
 ---
 ![]({{site.baseurl}}/images/spring_initializr.png)
