@@ -52,6 +52,51 @@ The first step is to add the Spring Cloud Gateway dependency to your project's `
 
 The next step is to configure routes in your application. You can use the `RouteLocator` interface to define routes 
 in Java code or the `application.yml` file to define them in a YAML file.
+Here are some examples of routing rules that can be added to the `application.yml` file for Spring Cloud Gateway:
+
+1.  Routing to a specific URL:
+```yaml
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: route1
+        uri: https://example.com
+        predicates:
+        - Path=/example/**
+```
+This rule will route any requests that match the `Path=/example/**` predicate to the `https://example.com` URL.
+
+2.  Routing to a specific service:
+```yaml
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: route2
+        uri: lb://service-name
+        predicates:
+        - Path=/api/**
+```
+
+This rule will route any requests that match the `Path=/api/**` predicate to the `service-name` service that is registered
+with a load balancer.
+
+3.  Redirecting to a different URL:
+```yaml
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: route3
+        uri: https://example.com
+        predicates:
+        - Path=/old-url/**
+        filters:
+        - RewritePath=/old-url/(?<remaining>.*), /new-url/${remaining}
+```
+This rule will redirect any requests that match the `Path=/old-url/**` predicate to the `https://example.com/new-url/**` URL. The `RewritePath` filter is used to rewrite the original URL path to the new URL path.
+
 
 Here is an example of configuring routes in Java code:
 ```java
