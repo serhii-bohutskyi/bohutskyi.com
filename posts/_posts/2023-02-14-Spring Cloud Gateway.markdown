@@ -94,6 +94,13 @@ public class AuthFilter implements GatewayFilter, Ordered {
 }
 ```
 
+### Conclusion
+
+Spring Cloud Gateway provides a powerful and flexible way to route HTTP requests in your microservices architecture. 
+In this article, we covered the basics of Spring Cloud Gateway and how to use it in a Java application. 
+With Spring Cloud Gateway, you can easily handle cross-cutting concerns such as security, rate limiting, 
+and circuit breaking without modifying your actual microservices.
+
 ---
 #### [Documentation](https://cloud.spring.io/spring-cloud-gateway/reference/html/){:target="_blank"}
 ---
