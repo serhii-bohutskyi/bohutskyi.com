@@ -48,7 +48,7 @@ favicon: true
 favicon_location: "https://bohutskyi.com/images/favicon.png"
 
 profile_picture: images/temp.png
-paginate: 50
+paginate: 100
 paginate_path: "/page/:num"
 tracking_id: UA-104221951-1 # GA Tracking ID
 
